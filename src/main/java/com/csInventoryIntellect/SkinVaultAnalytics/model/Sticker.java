@@ -6,18 +6,22 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity(name = "sticker")
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Sticker {
 
-    public Sticker(){
+    public Sticker(String stickerName, String finish, String rarity, String type){
         this.stickerName = stickerName;
         this.finish = finish;
         this.rarity = rarity;
         this.type = type;
     }
+
+    // many to many
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -27,5 +31,6 @@ public class Sticker {
     private String finish;
     private String rarity;
     private String type;
+
     // private Collection collection;
 }

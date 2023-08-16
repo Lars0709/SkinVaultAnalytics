@@ -35,6 +35,8 @@ public class Skin {
 
     // sticker & collection verlinken mit deren db über id
 
+    // many to many
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

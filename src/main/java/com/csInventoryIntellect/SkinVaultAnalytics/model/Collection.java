@@ -13,6 +13,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class Collection {
 
+    //many to many
 
     public Collection() {
 
