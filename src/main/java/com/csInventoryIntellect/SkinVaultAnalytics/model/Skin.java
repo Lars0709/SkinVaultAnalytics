@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Entity
 @Table(name = "skins")
 @Data
@@ -22,7 +23,7 @@ public class Skin {
         this.minWear = minWear;
         this.maxWear = maxWear;
         this.gunType = gunType;
-       // this.collection = collection;
+        // this.collection = collection;
         this.statTrakPossible = statTrakPossible;
         this.souvenirPossible = souvenirPossible;
         this.stickerSlotOnePossible = stickerSlotOnePossible;
