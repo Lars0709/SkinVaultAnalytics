@@ -1,21 +1,23 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.model;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.lang.Nullable;
+
+import java.util.List;
 
 @Entity(name = "collection")
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Collection {
 
     //many to many
 
-    public Collection() {
+    public Collection(int numberOfItems, int releaseYear, String collectionType) {
 
        this.numberOfItems = numberOfItems;
        this.releaseYear = releaseYear;
@@ -30,5 +32,29 @@ public class Collection {
     private int numberOfItems;
     private int releaseYear;
     private String collectionType;
+
+    @Nullable
+    @OneToMany(mappedBy = "collection")
+    private List<Skin> skins;
+
+    @Nullable
+    @OneToMany(mappedBy = "collection")
+    private List<Sticker> sticker;
+
+    @Nullable
+    @OneToMany(mappedBy = "collection")
+    private List<Graffiti> graffitis;
+
+    @Nullable
+    @OneToMany(mappedBy = "collection")
+    private List<Agent> agents;
+
+    @Nullable
+    @OneToMany(mappedBy = "collection")
+    private List<Patch> patches;
+
+    @Nullable
+    @OneToMany(mappedBy = "collection")
+    private List<Pin> pins;
 
 }

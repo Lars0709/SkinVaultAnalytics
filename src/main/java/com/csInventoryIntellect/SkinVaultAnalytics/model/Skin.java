@@ -13,17 +13,17 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Skin {
 
-    public Skin(String skinName, String rarity, double minWear, double maxWear, String gunType,
+    public Skin(String skinName, String rarity, double minWear, double maxWear, String gunType,Collection collection,
                 boolean statTrakPossible, boolean souvenirPossible, boolean stickerSlotOnePossible,
                 boolean stickerSlotTwoPossible, boolean stickerSlotThreePossible, boolean stickerSlotFourPossible,
                 boolean stickerSlotFivePossible) {
 
         this.skinName = skinName;
-        this.rarity = rarity;
-        this.minWear = minWear;
-        this.maxWear = maxWear;
-        this.gunType = gunType;
-        // this.collection = collection;
+        this.rarity = rarity; // blue, purple, pink, red, gold, contraband
+        this.minWear = minWear; // 0
+        this.maxWear = maxWear; // 1
+        this.gunType = gunType; // knife, gloves, all gun types
+        this.collection = collection;
         this.statTrakPossible = statTrakPossible;
         this.souvenirPossible = souvenirPossible;
         this.stickerSlotOnePossible = stickerSlotOnePossible;
@@ -46,7 +46,10 @@ public class Skin {
     private double minWear;
     private double maxWear;
     private String gunType;
-    // private Collection collection;
+
+    @ManyToOne
+    @JoinColumn(name="collection_id")
+    private Collection collection;
     private boolean statTrakPossible;
     private boolean souvenirPossible;
     private boolean stickerSlotOnePossible;
