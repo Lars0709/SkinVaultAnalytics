@@ -26,6 +26,7 @@ public class Sticker {
     private String finish;
     private String rarity;
     private String type;
+
     @ManyToOne
     @JoinColumn(name = "collection_id")
     private Collection collection;

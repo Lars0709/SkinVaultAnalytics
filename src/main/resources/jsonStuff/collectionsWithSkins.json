@@ -1,0 +1,1171 @@
+[
+    {
+        "collectionName": "The eSports 2013 Collection",
+        "numberOfItems": 9,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": [
+            {
+                "skinName": "Doomkitty",
+                "rarity": "Mil-Spec",
+                "minWear": 0.08,
+                "maxWear": 0.22,
+                "gunType": "FAMAS",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Memento",
+                "rarity": "Mil-Spec",
+                "minWear": 0.02,
+                "maxWear": 0.18,
+                "gunType": "MAG-7",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Faded Zebra",
+                "rarity": "Mil-Spec",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "M4A4",
+                "finishStyle": "Spray-Paint",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Splash",
+                "rarity": "Restricted",
+                "minWear": 0.06,
+                "maxWear": 0.18,
+                "gunType": "P250",
+                "finishStyle": "Spray-Paint",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Orange DDPAT",
+                "rarity": "Restricted",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "Galil AR",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Orange DDPAT",
+                "rarity": "Restricted",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "Sawed-Off",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Red Laminate",
+                "rarity": "Classified",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "AK-47",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "BOOM",
+                "rarity": "Classified",
+                "minWear": 0.06,
+                "maxWear": 0.28,
+                "gunType": "AWP",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Death by Kitty",
+                "rarity": "Covert",
+                "minWear": 0.08,
+                "maxWear": 0.32,
+                "gunType": "P90",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            }
+        ],
+        "stickers": [],
+        "graffitis": [],
+        "agents": [],
+        "patches": [],
+        "pins": []
+    },
+    {
+        "collectionName": "The Vertigo Collection",
+        "numberOfItems": 6,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": [
+            {
+                "skinName": "Urban Perforated",
+                "rarity": "Consumer Grade",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "XM1014",
+                "finishStyle": "Spray-Paint",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Urban DDPAT",
+                "rarity": "Consumer Grade",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "MAC-10",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Carbon Fiber",
+                "rarity": "Industrial Grade",
+                "minWear": 0,
+                "maxWear": 0.12,
+                "gunType": "PP-Bizon",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Glacier Mesh",
+                "rarity": "Mil-Spec",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "P90",
+                "finishStyle": "Spray-Paint",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Black Laminate",
+                "rarity": "Mil-Spec",
+                "minWear": 0.06,
+                "maxWear": 0.28,
+                "gunType": "AK-47",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Demolition",
+                "rarity": "Restricted",
+                "minWear": 0.26,
+                "maxWear": 0.6,
+                "gunType": "Dual Berettas",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            }
+        ],
+        "stickers": [],
+        "graffitis": [],
+        "agents": [],
+        "patches": [],
+        "pins": []
+    },
+    {
+        "collectionName": "The Militia Collection",
+        "numberOfItems": 11,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": [
+            {
+                "skinName": "Forest Leaves",
+                "rarity": "Consumer Grade",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "PP-Bizon",
+                "finishStyle": "Spray-Paint",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Tornado",
+                "rarity": "Consumer Grade",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "MAC-10",
+                "finishStyle": "Solid Color",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Grassland",
+                "rarity": "Consumer Grade",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "XM1014",
+                "finishStyle": "Solid Color",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Grassland Leaves",
+                "rarity": "Industrial Grade",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "P2000",
+                "finishStyle": "Spray-Paint",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Blaze Orange",
+                "rarity": "Mil-Spec",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "Nova",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Blaze Orange",
+                "rarity": "Mil-Spec",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "XM1014",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Modern Hunter",
+                "rarity": "Mil-Spec",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "P250",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Modern Hunter",
+                "rarity": "Mil-Spec",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "PP-Bizon",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Modern Hunter",
+                "rarity": "Mil-Spec",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "Nova",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Modern Hunter",
+                "rarity": "Restricted",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "M4A4",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Splash Jam",
+                "rarity": "Classified",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "SCAR-20",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": false,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            }
+        ]
+    },
+    {
+        "collectionName": "The Arms Deal Collection",
+        "numberOfItems": 9,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": [
+            {
+                "skinName": "Skulls",
+                "rarity": "Mil-Spec",
+                "minWear": 0.1,
+                "maxWear": 0.26,
+                "gunType": "MP7",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Wings",
+                "rarity": "Mil-Spec",
+                "minWear": 0,
+                "maxWear": 0.14,
+                "gunType": "AUG",
+                "finishStyle": "Hydrographic",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Ultraviolet",
+                "rarity": "Mil-Spec",
+                "minWear": 0.06,
+                "maxWear": 0.8,
+                "gunType": "SG 553",
+                "finishStyle": "Solid Color",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Dark Water",
+                "rarity": "Restricted",
+                "minWear": 0.1,
+                "maxWear": 0.26,
+                "gunType": "M4A1-S",
+                "finishStyle": "Anodized Multicolored",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Dark Water",
+                "rarity": "Restricted",
+                "minWear": 0.1,
+                "maxWear": 0.26,
+                "gunType": "USP-S",
+                "finishStyle": "Anodized Multicolored",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Dragon Tattoo",
+                "rarity": "Restricted",
+                "minWear": 0,
+                "maxWear": 0.08,
+                "gunType": "Glock-18",
+                "finishStyle": "Anodized Multicolored",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Hypnotic",
+                "rarity": "Classified",
+                "minWear": 0,
+                "maxWear": 0.08,
+                "gunType": "Desert Eagle",
+                "finishStyle": "Anodized Airbrushed",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Case Hardened",
+                "rarity": "Classified",
+                "minWear": 0,
+                "maxWear": 1,
+                "gunType": "AK-47",
+                "finishStyle": "Patina",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "Lightning Strike",
+                "rarity": "Covert",
+                "minWear": 0,
+                "maxWear": 0.08,
+                "gunType": "AWP",
+                "finishStyle": "Anodized Multicolored",
+                "statTrakPossible": true,
+                "souvenirPossible": false,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            }
+        ]
+    },
+    {
+        "collectionName": "The Inferno Collection",
+        "numberOfItems": 6,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": [
+            {
+                "skinName": "xxx",
+                "rarity": "xxx",
+                "minWear": 0.0,
+                "maxWear": 0.1,
+                "gunType": "xxx",
+                "finishStyle": "xxx",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "xxx",
+                "rarity": "xxx",
+                "minWear": 0.0,
+                "maxWear": 0.1,
+                "gunType": "xxx",
+                "finishStyle": "xxx",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "xxx",
+                "rarity": "xxx",
+                "minWear": 0.0,
+                "maxWear": 0.1,
+                "gunType": "xxx",
+                "finishStyle": "xxx",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "xxx",
+                "rarity": "xxx",
+                "minWear": 0.0,
+                "maxWear": 0.1,
+                "gunType": "xxx",
+                "finishStyle": "xxx",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "xxx",
+                "rarity": "xxx",
+                "minWear": 0.0,
+                "maxWear": 0.1,
+                "gunType": "xxx",
+                "finishStyle": "xxx",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            },
+            {
+                "skinName": "xxx",
+                "rarity": "xxx",
+                "minWear": 0.0,
+                "maxWear": 0.1,
+                "gunType": "xxx",
+                "finishStyle": "xxx",
+                "statTrakPossible": false,
+                "souvenirPossible": true,
+                "stickerSlotOnePossible": true,
+                "stickerSlotTwoPossible": true,
+                "stickerSlotThreePossible": true,
+                "stickerSlotFourPossible": true,
+                "stickerSlotFivePossible": false
+            }
+        ]
+    },
+    {
+        "collectionName": "The Aztec Collection",
+        "numberOfItems": 6,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Nuke Collection",
+        "numberOfItems": 9,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Office Collection",
+        "numberOfItems": 6,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Dust Collection",
+        "numberOfItems": 9,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Assault Collection",
+        "numberOfItems": 7,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Bravo Collection",
+        "numberOfItems": 15,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Alpha Collection",
+        "numberOfItems": 16,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Arms Deal 2 Collection",
+        "numberOfItems": 11,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Train Collection",
+        "numberOfItems": 15,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Lake Collection",
+        "numberOfItems": 15,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Dust 2 Collection",
+        "numberOfItems": 16,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Safehouse Collection",
+        "numberOfItems": 15,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Mirage Collection",
+        "numberOfItems": 15,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Italy Collection",
+        "numberOfItems": 15,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Winter Offensive Collection",
+        "numberOfItems": 13,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The eSports 2013 Winter Collection",
+        "numberOfItems": 12,
+        "releaseYear": 2013,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Arms Deal 3 Collection",
+        "numberOfItems": 12,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Phoenix Collection",
+        "numberOfItems": 13,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Huntsman Collection",
+        "numberOfItems": 21,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Bank Collection",
+        "numberOfItems": 16,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Cobblestone Collection",
+        "numberOfItems": 15,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Overpass Collection",
+        "numberOfItems": 15,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Baggage Collection",
+        "numberOfItems": 15,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Breakout Collection",
+        "numberOfItems": 14,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The eSports 2014 Summer Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Cache Collection",
+        "numberOfItems": 13,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Vanguard Collection",
+        "numberOfItems": 14,
+        "releaseYear": 2014,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Chroma Collection",
+        "numberOfItems": 14,
+        "releaseYear": 2015,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Chroma 2 Collection",
+        "numberOfItems": 15,
+        "releaseYear": 2015,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Falchion Collection",
+        "numberOfItems": 16,
+        "releaseYear": 2015,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Chop Shop Collection",
+        "numberOfItems": 16,
+        "releaseYear": 2015,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Gods and Monsters Collection",
+        "numberOfItems": 14,
+        "releaseYear": 2015,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Rising Sun Collection",
+        "numberOfItems": 16,
+        "releaseYear": 2015,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Shadow Collection",
+        "numberOfItems": 16,
+        "releaseYear": 2015,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Revolver Case Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2015,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Wildfire Collection",
+        "numberOfItems": 16,
+        "releaseYear": 2016,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Chroma 3 Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2016,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Gamma Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2016,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Gamma 2 Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2016,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Glove Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2016,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Spectrum Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2017,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "Operation Hydra",
+        "numberOfItems": 17,
+        "releaseYear": 2017,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Spectrum 2 Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2017,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Horizon Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2018,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The 2018 Inferno Collection",
+        "numberOfItems": 18,
+        "releaseYear": 2018,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The 2018 Nuke Collection",
+        "numberOfItems": 18,
+        "releaseYear": 2018,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Danger Zone Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2018,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Blacksite Collection",
+        "numberOfItems": 1,
+        "releaseYear": 2018,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Clutch Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2018,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Prisma Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2019,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The X-Ray Collection",
+        "numberOfItems": 1,
+        "releaseYear": 2019,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The CS20 Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2019,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Shattered Web Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2019,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Norse Collection",
+        "numberOfItems": 18,
+        "releaseYear": 2019,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The St. Marc Collection",
+        "numberOfItems": 18,
+        "releaseYear": 2019,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Canals Collection",
+        "numberOfItems": 18,
+        "releaseYear": 2019,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Prisma 2 Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2020,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Fracture Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2020,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Havoc Collection",
+        "numberOfItems": 19,
+        "releaseYear": 2020,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Ancient Collection",
+        "numberOfItems": 19,
+        "releaseYear": 2020,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Control Collection",
+        "numberOfItems": 19,
+        "releaseYear": 2020,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Operation Broken Fang Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2020,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Snakebite Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2021,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Operation Riptide Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2021,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The 2021 Vertigo Collection",
+        "numberOfItems": 19,
+        "releaseYear": 2021,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The 2021 Mirage Collection",
+        "numberOfItems": 19,
+        "releaseYear": 2021,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The 2021 Dust 2 Collection",
+        "numberOfItems": 19,
+        "releaseYear": 2021,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The 2021 Train Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2021,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Dreams & Nightmares Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2022,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Recoil Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2022,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Revolution Collection",
+        "numberOfItems": 17,
+        "releaseYear": 2023,
+        "collectionType": "skins",
+        "skins": []
+    },
+    {
+        "collectionName": "The Anubis Collection",
+        "numberOfItems": 19,
+        "releaseYear": 2023,
+        "collectionType": "skins",
+        "skins": []
+    }
+]
