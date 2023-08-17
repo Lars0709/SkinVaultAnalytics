@@ -1,10 +1,12 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.model;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.lang.Nullable;
 
 @Entity(name = "agents")
 @Data
@@ -12,9 +14,8 @@ import org.springframework.lang.Nullable;
 @NoArgsConstructor
 public class Agent {
 
-    public Agent(String agentName, Collection collection, String rarity, String type) {
+    public Agent(String agentName,String rarity, String type) {
         this.agentName = agentName;
-        this.collection = collection;
         this.rarity = rarity;
         this.type = type; // ct or t side
     }
@@ -26,10 +27,5 @@ public class Agent {
     private String agentName;
     private String rarity;
     private String type;
-
-    @Nullable
-    @ManyToOne
-    @JoinColumn(name = "collection_id")
-    private Collection collection;
 
 }

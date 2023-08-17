@@ -17,6 +17,7 @@ import java.util.Date;
 @NoArgsConstructor
 public class Event {
 
+    // major, operation, stickersale???
 
     public Event(Date startDate, Date endDate, String type, String location, String majorWinner,
                  String additionalInformation) {

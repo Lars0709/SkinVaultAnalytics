@@ -1,0 +1,341 @@
+[
+    {
+        "collectionName": "Operation Riptide Agents",
+        "numberOfItems": 21,
+        "releaseYear": 2021,
+        "collectionType": "agents",
+        "agents": [
+            {
+                "agentName": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
+                "rarity": "Master",
+                "type": "ct"
+            },
+            {
+                "agentName": "Cmdr. Davida 'Goggles' Fernandez | SEAL Frogman",
+                "rarity": "Master",
+                "type": "ct"
+            },
+            {
+                "agentName": "Cmdr. Frank 'Wet Sox' Baroud | SEAL Frogman",
+                "rarity": "Master",
+                "type": "ct"
+            },
+            {
+                "agentName": "Crasswater The Forgotten | Guerrilla Warfare",
+                "rarity": "Master",
+                "type": "t"
+            },
+            {
+                "agentName": "'Medium Rare' Crasswater | Guerrilla Warfare",
+                "rarity": "Master",
+                "type": "t"
+            },
+            {
+                "agentName": "Vypa Sista of the Revolution | Guerrilla Warfare",
+                "rarity": "Master",
+                "type": "t"
+            },
+            {
+                "agentName": "Arno The Overgrown | Guerrilla Warfare",
+                "rarity": "Superior",
+                "type": "t"
+            },
+            {
+                "agentName": "Bloody Darryl The Strapped | The Professionals",
+                "rarity": "Superior",
+                "type": "t"
+            },
+            {
+                "agentName": "Chem-Haz Capitaine | Gendarmerie Nationale",
+                "rarity": "Superior",
+                "type": "ct"
+            },
+            {
+                "agentName": "Elite Trapper Solman | Guerrilla Warfare",
+                "rarity": "Superior",
+                "type": "t"
+            },
+            {
+                "agentName": "Lieutenant Rex Krikey | SEAL Frogman",
+                "rarity": "Superior",
+                "type": "ct"
+            },
+            {
+                "agentName": "Col. Mangos Dabisi | Guerrilla Warfare",
+                "rarity": "Exceptional",
+                "type": "t"
+            },
+            {
+                "agentName": "Lieutenant 'Tree Hugger' Farlow | SWAT",
+                "rarity": "Exceptional",
+                "type": "ct"
+            },
+            {
+                "agentName": "Officer Jacques Beltram | Gendarmerie Nationale",
+                "rarity": "Exceptional",
+                "type": "ct"
+            },
+            {
+                "agentName": "Sous-Lieutenant Medic | Gendarmerie Nationale",
+                "rarity": "Exceptional",
+                "type": "ct"
+            },
+            {
+                "agentName": "Trapper | Guerrilla Warfare",
+                "rarity": "Exceptional",
+                "type": "t"
+            },
+            {
+                "agentName": "Aspirant | Gendarmerie Nationale",
+                "rarity": "Distinguished",
+                "type": "ct"
+            },
+            {
+                "agentName": "D Squadron Officer | NZSAS",
+                "rarity": "Distinguished",
+                "type": "ct"
+            },
+            {
+                "agentName": "Jungle Rebel | Elite Crew",
+                "rarity": "Distinguished",
+                "type": "t"
+            },
+            {
+                "agentName": "Primeiro Tenente | Brazilian 1st Battalion",
+                "rarity": "Distinguished",
+                "type": "ct"
+            },
+            {
+                "agentName": "Trapper Aggressor | Guerrilla Warfare",
+                "rarity": "Distinguished",
+                "type": "t"
+            }
+        ]
+    },
+    {
+        "collectionName": "Broken Fang Agents",
+        "numberOfItems": 20,
+        "releaseYear": 2020,
+        "collectionType": "agents",
+        "agents": [
+            {
+                "agentName": "Cmdr. Mae 'Dead Cold' Jamison | SWAT",
+                "rarity": "Master",
+                "type": "ct"
+            },
+            {
+                "agentName": "Sir Bloody Darryl Royale | The Professionals",
+                "rarity": "Master",
+                "type": "t"
+            },
+            {
+                "agentName": "Sir Bloody Loudmouth Darryl | The Professionals",
+                "rarity": "Master",
+                "type": "t"
+            },
+            {
+                "agentName": "Sir Bloody Miami Darryl | The Professionals",
+                "rarity": "Master",
+                "type": "t"
+            },
+            {
+                "agentName": "Sir Bloody Silent Darryl | The Professionals",
+                "rarity": "Master",
+                "type": "t"
+            },
+            {
+                "agentName": "Sir Bloody Skullhead Darryl | The Professionals",
+                "rarity": "Master",
+                "type": "t"
+            },
+            {
+                "agentName": "1st Lieutenant Farlow | SWAT",
+                "rarity": "Superior",
+                "type": "ct"
+            },
+            {
+                "agentName": "Number K | The Professionals",
+                "rarity": "Superior",
+                "type": "t"
+            },
+            {
+                "agentName": "Rezan the Redshirt | Sabre",
+                "rarity": "Superior",
+                "type": "t"
+            },
+            {
+                "agentName": "Safecracker Voltzmann | The Professionals",
+                "rarity": "Superior",
+                "type": "t"
+            },
+            {
+                "agentName": "'Two Times' McCoy | TACP Cavalry",
+                "rarity": "Superior",
+                "type": "ct"
+            },
+            {
+                "agentName": "'Blueberries' Buckshot | NSWC SEAL",
+                "rarity": "Exceptional",
+                "type": "ct"
+            },
+            {
+                "agentName": "Getaway Sally | The Professionals",
+                "rarity": "Exceptional",
+                "type": "t"
+            },
+            {
+                "agentName": "John 'Van Healen' Kask | SWAT",
+                "rarity": "Exceptional",
+                "type": "ct"
+            },
+            {
+                "agentName": "Little Kev | The Professionals",
+                "rarity": "Exceptional",
+                "type": "t"
+            },
+            {
+                "agentName": "Sergeant Bombson | SWAT",
+                "rarity": "Exceptional",
+                "type": "ct"
+            },
+            {
+                "agentName": "Bio-Haz Specialist | SWAT",
+                "rarity": "Distinguished",
+                "type": "ct"
+            },
+            {
+                "agentName": "Chem-Haz Specialist | SWAT",
+                "rarity": "Distinguished",
+                "type": "t"
+            },
+            {
+                "agentName": "Dragomir | Sabre Footsoldier",
+                "rarity": "Distinguished",
+                "type": "ct"
+            },
+            {
+                "agentName": "Dragomir | Sabre Footsoldier",
+                "rarity": "Distinguished",
+                "type": "t"
+            }
+        ]
+    },
+    {
+        "collectionName": "Shattered Web Agents",
+        "numberOfItems": 22,
+        "releaseYear": 2019,
+        "collectionType": "agents",
+        "agents": [
+            {
+                "agentName": "Lt. Commander Ricksaw | NSWC SEAL",
+                "rarity": "Master",
+                "type": "ct"
+            },
+            {
+                "agentName": "Special Agent Ava | FBI",
+                "rarity": "Master",
+                "type": "ct"
+            },
+            {
+                "agentName": "'The Doctor' Romanov | Sabre",
+                "rarity": "Master",
+                "type": "t"
+            },
+            {
+                "agentName": "The Elite Mr. Muhlik | Elite Crew",
+                "rarity": "Master",
+                "type": "t"
+            },
+            {
+                "agentName": "Blackwolf | Sabre",
+                "rarity": "Superior",
+                "type": "t"
+            },
+            {
+                "agentName": "Michael Syfers  | FBI Sniper",
+                "rarity": "Superior",
+                "type": "ct"
+            },
+            {
+                "agentName": "Prof. Shahmat | Elite Crew",
+                "rarity": "Superior",
+                "type": "t"
+            },
+            {
+                "agentName": "Rezan The Ready | Sabre",
+                "rarity": "Superior",
+                "type": "t"
+            },
+            {
+                "agentName": "'Two Times' McCoy | USAF TACP",
+                "rarity": "Superior",
+                "type": "ct"
+            },
+            {
+                "agentName": "Buckshot | NSWC SEAL",
+                "rarity": "Exceptional",
+                "type": "ct"
+            },
+            {
+                "agentName": "Dragomir | Sabre",
+                "rarity": "Exceptional",
+                "type": "t"
+            },
+            {
+                "agentName": "Markus Delrow | FBI HRT",
+                "rarity": "Exceptional",
+                "type": "ct"
+            },
+            {
+                "agentName": "Maximus | Sabre",
+                "rarity": "Exceptional",
+                "type": "t"
+            },
+            {
+                "agentName": "Osiris | Elite Crew",
+                "rarity": "Exceptional",
+                "type": "t"
+            },
+            {
+                "agentName": "Slingshot | Phoenix",
+                "rarity": "Exceptional",
+                "type": "t"
+            },
+            {
+                "agentName": "3rd Commando Company | KSK",
+                "rarity": "Distinguished",
+                "type": "ct"
+            },
+            {
+                "agentName": "B Squadron Officer | SAS",
+                "rarity": "Distinguished",
+                "type": "ct"
+            },
+            {
+                "agentName": "Enforcer | Phoenix",
+                "rarity": "Distinguished",
+                "type": "t"
+            },
+            {
+                "agentName": "Ground Rebel  | Elite Crew",
+                "rarity": "Distinguished",
+                "type": "t"
+            },
+            {
+                "agentName": "Operator | FBI SWAT",
+                "rarity": "Distinguished",
+                "type": "ct"
+            },
+            {
+                "agentName": "Seal Team 6 Soldier | NSWC SEAL",
+                "rarity": "Distinguished",
+                "type": "ct"
+            },
+            {
+                "agentName": "Soldier | Phoenix",
+                "rarity": "Distinguished",
+                "type": "t"
+            }
+        ]
+    }
+]

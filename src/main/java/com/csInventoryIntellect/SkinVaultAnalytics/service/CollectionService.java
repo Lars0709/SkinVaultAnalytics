@@ -1,7 +1,9 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.service;
 
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Collection;
+import com.csInventoryIntellect.SkinVaultAnalytics.repository.AgentRepository;
 import com.csInventoryIntellect.SkinVaultAnalytics.repository.CollectionRepository;
+import com.csInventoryIntellect.SkinVaultAnalytics.repository.SkinRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,9 +16,29 @@ public class CollectionService {
     @Autowired
     private CollectionRepository collectionRepository;
 
+    @Autowired
+    private SkinRepository skinRepository;
+
+    @Autowired
+    private AgentRepository agentRepository;
+
     // Create new Collection
-    public Collection createCollection(Collection collection){
-        return collectionRepository.save(collection);
+    public String createCollection(List<Collection> collections){
+
+        collectionRepository.saveAll(collections);
+
+        for (Collection collection : collections){
+
+            if (collection.getSkins() != null){
+                skinRepository.saveAll(collection.getSkins());
+            }
+
+            if (collection.getAgents() != null){
+                agentRepository.saveAll(collection.getAgents());
+            }
+        }
+
+        return "Added all Collections successfully!";
     }
 
     // Get all Collections
