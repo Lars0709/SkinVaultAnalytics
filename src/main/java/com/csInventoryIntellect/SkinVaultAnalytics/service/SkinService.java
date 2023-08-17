@@ -28,11 +28,6 @@ public class SkinService {
         return skinRepository.findById(id);
     }
 
-    //delete all skins
-    public void deleteAllSkins(){
-        skinRepository.deleteAll();
-    }
-
     //delete skin
     public void deleteSkinById(Long id){
         skinRepository.deleteById(id);

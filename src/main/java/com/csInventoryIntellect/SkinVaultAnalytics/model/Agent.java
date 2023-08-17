@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.lang.Nullable;
 
 @Entity(name = "agents")
 @Data
@@ -26,6 +27,7 @@ public class Agent {
     private String rarity;
     private String type;
 
+    @Nullable
     @ManyToOne
     @JoinColumn(name = "collection_id")
     private Collection collection;

@@ -32,13 +32,6 @@ public class SkinController {
         return skinService.getSkinById(id);
     }
 
-    //delete all skins
-    @DeleteMapping
-    public String deleteAllSkins(){
-        skinService.deleteAllSkins();
-        return "All skins have been deleted successfully.";
-    }
-
     //delete skin by id
     @DeleteMapping("/{id}")
     public void deleteSkinById(@PathVariable Long id){

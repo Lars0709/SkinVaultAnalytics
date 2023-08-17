@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.lang.Nullable;
 
 @Entity(name = "container")
 @Data
@@ -24,7 +25,7 @@ public class Container {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
+    @Nullable
     @ManyToOne
     @JoinColumn(name = "collection_id")
     private Collection collection;
