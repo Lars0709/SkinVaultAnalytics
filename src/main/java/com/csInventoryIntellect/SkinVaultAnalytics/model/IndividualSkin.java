@@ -11,14 +11,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class IndividualSkin {
 
+    public IndividualSkin(Skin skin, String nameTag, double wearFloat, int patternId, boolean statTrak, boolean souvenir,
+                          String eventSouvenir, boolean stickerSlotOneApplied, boolean stickerSlotTwoApplied,
+                          boolean stickerSlotThreeApplied, boolean stickerSlotFourApplied, boolean stickerSlotFiveApplied,
+                          Sticker stickerSlotOne, Sticker stickerSlotTwo, Sticker stickerSlotThree, Sticker stickerSlotFour,
+                          Sticker stickerSlotFive, boolean unboxed, boolean crafted, boolean levelUpReward,
+                          String speciality) {
 
-
-    public IndividualSkin(double wearFloat, int patternId, boolean statTrak, boolean souvenir,String eventSouvenir,
-                          boolean stickerSlotOneApplied, boolean stickerSlotTwoApplied, boolean stickerSlotThreeApplied,
-                          boolean stickerSlotFourApplied, boolean stickerSlotFiveApplied, boolean unboxed, boolean crafted,
-                          boolean levelUpReward, String speciality){
-
-        // this.skin = skin;
+        this.skin = skin;
+        this.nameTag = nameTag;
         this.wearFloat = wearFloat;
         this.patternId = patternId;
         this.statTrak = statTrak;
@@ -29,15 +30,11 @@ public class IndividualSkin {
         this.stickerSlotThreeApplied = stickerSlotThreeApplied;
         this.stickerSlotFourApplied = stickerSlotFourApplied;
         this.stickerSlotFiveApplied = stickerSlotFiveApplied;
-
-        /*
         this.stickerSlotOne = stickerSlotOne;
         this.stickerSlotTwo = stickerSlotTwo;
         this.stickerSlotThree = stickerSlotThree;
         this.stickerSlotFour = stickerSlotFour;
         this.stickerSlotFive = stickerSlotFive;
-         */
-
         this.unboxed = unboxed;
         this.crafted = crafted;
         this.levelUpReward = levelUpReward;
@@ -51,12 +48,16 @@ public class IndividualSkin {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    // private Skin skin;
+    @ManyToOne
+    @JoinColumn(name = "skin_id")
+    private Skin skin;
 
-
+    private String nameTag;
     private double wearFloat;
 
-    //private Collection collection;
+    @ManyToOne
+    @JoinColumn(name = "collection_id")
+    private Collection collection;
 
     private int patternId;
     private boolean statTrak;
@@ -67,15 +68,21 @@ public class IndividualSkin {
     private boolean stickerSlotThreeApplied;
     private boolean stickerSlotFourApplied;
     private boolean stickerSlotFiveApplied;
-
-    /*
+    @ManyToOne
+    @JoinColumn(name = "sticker_slot_one_id")
     private Sticker stickerSlotOne;
+    @ManyToOne
+    @JoinColumn(name = "sticker_slot_two_id")
     private Sticker stickerSlotTwo;
+    @ManyToOne
+    @JoinColumn(name = "sticker_slot_three_id")
     private Sticker stickerSlotThree;
+    @ManyToOne
+    @JoinColumn(name = "sticker_slot_four_id")
     private Sticker stickerSlotFour;
+    @ManyToOne
+    @JoinColumn(name = "sticker_slot_five_id")
     private Sticker stickerSlotFive;
-     */
-
     private boolean unboxed;
     private boolean crafted;
     private boolean levelUpReward;

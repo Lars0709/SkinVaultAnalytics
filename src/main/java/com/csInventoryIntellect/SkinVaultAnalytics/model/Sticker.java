@@ -1,12 +1,7 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import jakarta.persistence.*;
+import lombok.*;
 
 @Entity(name = "sticker")
 @Data
@@ -14,11 +9,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Sticker {
 
-    public Sticker(String stickerName, String finish, String rarity, String type){
+    public Sticker(String stickerName, String finish, String rarity, String type) {
         this.stickerName = stickerName;
-        this.finish = finish;
-        this.rarity = rarity;
-        this.type = type;
+        this.finish = finish; // paper, glitter, holo, foil gold
+        this.rarity = rarity; // blue, purple, pink, red, contraband
+        this.type = type; // major sticker, operation sticker, standard capsule
     }
 
     // many to many
@@ -31,6 +26,7 @@ public class Sticker {
     private String finish;
     private String rarity;
     private String type;
-
-    // private Collection collection;
+    @ManyToOne
+    @JoinColumn(name = "collection_id")
+    private Collection collection;
 }
