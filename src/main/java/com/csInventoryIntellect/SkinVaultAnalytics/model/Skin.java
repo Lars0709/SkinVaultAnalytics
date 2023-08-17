@@ -34,7 +34,6 @@ public class Skin {
         this.stickerSlotFivePossible = stickerSlotFivePossible;
     }
 
-    // sticker & collection verlinken mit deren db über id
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

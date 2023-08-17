@@ -18,7 +18,6 @@ public class Graffiti {
         this.type = type;
     }
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

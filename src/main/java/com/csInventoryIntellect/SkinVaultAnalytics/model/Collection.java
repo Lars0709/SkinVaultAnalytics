@@ -15,8 +15,10 @@ import java.util.List;
 @NoArgsConstructor
 public class Collection {
 
-    public Collection(int numberOfItems, int releaseYear, String collectionType) {
 
+    public Collection(String collectionName, int numberOfItems, int releaseYear, String collectionType) {
+
+        this.collectionName = collectionName;
         this.numberOfItems = numberOfItems;
         this.releaseYear = releaseYear;
         this.collectionType = collectionType;
@@ -27,6 +29,7 @@ public class Collection {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String collectionName;
     private int numberOfItems;
     private int releaseYear;
     private String collectionType;
