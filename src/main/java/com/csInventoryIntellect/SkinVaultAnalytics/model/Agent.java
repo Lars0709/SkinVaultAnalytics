@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Agent {
 
-    public Agent (String agentName,Collection collection, String rarity, String type){
+    public Agent(String agentName, Collection collection, String rarity, String type) {
         this.agentName = agentName;
         this.collection = collection;
         this.rarity = rarity;
@@ -27,7 +27,7 @@ public class Agent {
     private String type;
 
     @ManyToOne
-    @JoinColumn(name="collection_id")
+    @JoinColumn(name = "collection_id")
     private Collection collection;
 
 }

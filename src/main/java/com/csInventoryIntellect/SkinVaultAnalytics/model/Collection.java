@@ -15,13 +15,11 @@ import java.util.List;
 @NoArgsConstructor
 public class Collection {
 
-    //many to many
-
     public Collection(int numberOfItems, int releaseYear, String collectionType) {
 
-       this.numberOfItems = numberOfItems;
-       this.releaseYear = releaseYear;
-       this.collectionType = collectionType;
+        this.numberOfItems = numberOfItems;
+        this.releaseYear = releaseYear;
+        this.collectionType = collectionType;
 
     }
 

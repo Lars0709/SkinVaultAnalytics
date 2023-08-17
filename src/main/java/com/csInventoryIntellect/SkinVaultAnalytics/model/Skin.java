@@ -13,8 +13,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Skin {
 
-    public Skin(String skinName, String rarity, double minWear, double maxWear, String gunType,Collection collection,
-                boolean statTrakPossible, boolean souvenirPossible, boolean stickerSlotOnePossible,
+    public Skin(String skinName, String rarity, double minWear, double maxWear, String gunType, String finishStyle,
+                Collection collection, boolean statTrakPossible, boolean souvenirPossible, boolean stickerSlotOnePossible,
                 boolean stickerSlotTwoPossible, boolean stickerSlotThreePossible, boolean stickerSlotFourPossible,
                 boolean stickerSlotFivePossible) {
 
@@ -23,6 +23,7 @@ public class Skin {
         this.minWear = minWear; // 0
         this.maxWear = maxWear; // 1
         this.gunType = gunType; // knife, gloves, all gun types
+        this.finishStyle = finishStyle;
         this.collection = collection;
         this.statTrakPossible = statTrakPossible;
         this.souvenirPossible = souvenirPossible;
@@ -35,8 +36,6 @@ public class Skin {
 
     // sticker & collection verlinken mit deren db über id
 
-    // many to many
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -46,9 +45,9 @@ public class Skin {
     private double minWear;
     private double maxWear;
     private String gunType;
-
+    private String finishStyle;
     @ManyToOne
-    @JoinColumn(name="collection_id")
+    @JoinColumn(name = "collection_id")
     private Collection collection;
     private boolean statTrakPossible;
     private boolean souvenirPossible;

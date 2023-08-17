@@ -9,7 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 public class Sticker {
 
-    public Sticker(String stickerName, String finish, String rarity, String type){
+    public Sticker(String stickerName, String finish, String rarity, String type) {
         this.stickerName = stickerName;
         this.finish = finish; // paper, glitter, holo, foil gold
         this.rarity = rarity; // blue, purple, pink, red, contraband
@@ -26,8 +26,7 @@ public class Sticker {
     private String finish;
     private String rarity;
     private String type;
-
     @ManyToOne
-    @JoinColumn(name="collection_id")
+    @JoinColumn(name = "collection_id")
     private Collection collection;
 }
