@@ -34,6 +34,7 @@ public class Collection {
     private int releaseYear;
     private String collectionType;
 
+    /*
     @Nullable
     @OneToMany(mappedBy = "collection")
     private List<Skin> skins;
@@ -57,5 +58,6 @@ public class Collection {
     @Nullable
     @OneToMany(mappedBy = "collection")
     private List<Pin> pins;
+     */
 
 }
