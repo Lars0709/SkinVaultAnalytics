@@ -11,9 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Graffiti {
 
-    public Graffiti (String graffitiName, Collection collection, String rarity, String type){
+    public Graffiti (String graffitiName, String rarity, String type){
         this.graffitiName = graffitiName;
-        this.collection = collection;
         this.rarity = rarity;
         this.type = type;
     }
@@ -25,9 +24,5 @@ public class Graffiti {
     private String graffitiName;
     private String rarity;
     private String type;
-
-    @ManyToOne
-    @JoinColumn(name="collection_id")
-    private Collection collection;
 
 }

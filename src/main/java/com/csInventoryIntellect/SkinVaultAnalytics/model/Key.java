@@ -11,10 +11,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Key {
 
-    public Key(String keyName, Container container) {
+    public Key(String keyName, String keyType) {
 
         this.keyName = keyName;
-        this.container = container;
+        this.keyType = keyType;
 
     }
 
@@ -23,8 +23,7 @@ public class Key {
     private Long id;
 
     private String keyName;
-    @ManyToOne
-    @JoinColumn(name = "container_id")
-    private Container container;
+    private String keyType;
+
 
 }

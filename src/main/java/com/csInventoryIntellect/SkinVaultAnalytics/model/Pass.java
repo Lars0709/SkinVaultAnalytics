@@ -11,11 +11,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Pass {
 
-    public Pass(String passName, Event event) {
+    public Pass(String passName) {
 
         this.passName = passName;
-        this.event = event;
-
     }
 
     @Id
@@ -23,10 +21,5 @@ public class Pass {
     private Long id;
 
     private String passName;
-
-
-    @ManyToOne
-    @JoinColumn(name = "event_id")
-    private Event event;
 
 }

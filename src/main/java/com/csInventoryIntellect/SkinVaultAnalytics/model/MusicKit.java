@@ -8,26 +8,20 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity(name="miscellaneous")
+@Entity(name="musicKits")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Miscellaneous {
+public class MusicKit {
 
-    public Miscellaneous(String statTrakTool, String nameTag, String gift){
-
-        this.statTrakTool = statTrakTool;
-        this.nameTag = nameTag;
-        this.gift = gift;
-
+    public MusicKit(String musicKitName){
+        this.musicKitName = musicKitName;
     }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String statTrakTool;
-    private String nameTag;
-    private String gift;
+    private String musicKitName;
 
 }
