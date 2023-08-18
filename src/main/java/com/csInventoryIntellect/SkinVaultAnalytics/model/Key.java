@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Entity(name = "keys")
 @Data
 @NoArgsConstructor
@@ -24,6 +25,5 @@ public class Key {
 
     private String keyName;
     private String keyType;
-
 
 }
