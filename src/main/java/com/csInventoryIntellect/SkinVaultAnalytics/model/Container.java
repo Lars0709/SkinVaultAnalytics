@@ -1,5 +1,6 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.model;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,12 +12,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Container {
 
-    public Container(String containerName, boolean obtainableNew, boolean keyNeeded, boolean dropActive) {
+    public Container(String containerName, boolean obtainableNew, boolean keyNeeded, boolean dropActive, @Nullable Key key) {
 
         this.containerName = containerName;
         this.obtainableNew = obtainableNew;
         this.keyNeeded = keyNeeded;
         this.dropActive = dropActive;
+        this.key = key;
 
     }
 
@@ -28,5 +30,10 @@ public class Container {
     private boolean obtainableNew;
     private boolean keyNeeded;
     private boolean dropActive;
+
+    @Nullable
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "key_id")
+    private Key key;
 
 }

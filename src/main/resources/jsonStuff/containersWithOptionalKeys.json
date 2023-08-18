@@ -1,0 +1,38 @@
+[
+  {
+    "containerName": "eSports 2013 Case",
+    "obtainableNew": false,
+    "keyNeeded": true,
+    "dropActive": false,
+    "key": {
+      "keyName": "eSports Key",
+      "keyType": "caseKey"
+    }
+  },
+  {
+    "containerName": "eSports 2013 Winter Case",
+    "obtainableNew": false,
+    "keyNeeded": true,
+    "dropActive": false,
+    "key": {
+      "keyName": "eSports Key",
+      "keyType": "caseKey"
+    }
+  },
+  {
+    "containerName": "eSports 2014 Summer Case",
+    "obtainableNew": false,
+    "keyNeeded": true,
+    "dropActive": false,
+    "key": {
+      "keyName": "eSports Key",
+      "keyType": "caseKey"
+    }
+  },
+  {
+    "containerName": "Anubis package",
+    "obtainableNew": true,
+    "keyNeeded": false,
+    "dropActive": false
+  }
+]

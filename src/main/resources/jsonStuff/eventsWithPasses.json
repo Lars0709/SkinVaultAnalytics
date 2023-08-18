@@ -1,0 +1,26 @@
+[
+  {
+    "startDate": "88.88.2013",
+    "endDate": "99.99.2013",
+    "type": "major",
+    "location": "Katowice",
+    "majorWinner": "VP",
+    "additionalInformation": "first event ever",
+    "passes": [
+      {
+        "passName": "test pass"
+      },
+      {
+        "passName": "test 2"
+      }
+    ]
+  },
+  {
+    "startDate": "88.88.2015",
+    "endDate": "99.99.2017",
+    "type": "major",
+    "location": "Dreamhack",
+    "majorWinner": "FNATIC",
+    "additionalInformation": "second event ever"
+  }
+]

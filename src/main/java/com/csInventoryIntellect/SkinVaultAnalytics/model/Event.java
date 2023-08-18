@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
 import java.util.List;
 
 @Entity(name = "events")
@@ -16,8 +15,8 @@ import java.util.List;
 public class Event {
 
 
-    public Event(Date startDate, @Nullable Date endDate, String type, @Nullable String location,
-                 @Nullable String majorWinner, @Nullable String additionalInformation, @Nullable Pass pass) {
+    public Event(String startDate, @Nullable String endDate, String type, @Nullable String location,
+                 @Nullable String majorWinner, @Nullable String additionalInformation, @Nullable List<Pass> passes) {
 
         this.startDate = startDate;
         this.endDate = endDate;
@@ -25,7 +24,7 @@ public class Event {
         this.location = location;
         this.majorWinner = majorWinner;
         this.additionalInformation = additionalInformation;
-        this.pass = pass;
+        this.passes = passes;
 
     }
 
@@ -33,9 +32,9 @@ public class Event {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Date startDate;
+    private String startDate;
     @Nullable
-    private Date endDate;
+    private String endDate;
     private String type;
     @Nullable
     private String location;
@@ -45,8 +44,8 @@ public class Event {
     private String additionalInformation;
 
     @Nullable
-    @OneToOne
-    @JoinColumn(name = "pass_id", nullable = false)
-    private Pass pass;
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "pass_id")
+    private List<Pass> passes;
 
 }

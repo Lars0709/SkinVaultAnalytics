@@ -18,8 +18,7 @@ public class Collection {
 
     public Collection(String collectionName, int releaseYear, String collectionType,
                       @Nullable List<Skin> skins, @Nullable List<Sticker> stickers, @Nullable List<Graffiti> graffitis,
-                      @Nullable List<Agent> agents, @Nullable List<Patch> patches, @Nullable List<Pin> pins,
-                      @Nullable List<MusicKit> musicKits) {
+                      @Nullable List<Agent> agents, @Nullable List<Patch> patches, @Nullable List<Pin> pins) {
 
         this.collectionName = collectionName;
         this.releaseYear = releaseYear;
@@ -30,7 +29,6 @@ public class Collection {
         this.agents = agents;
         this.patches = patches;
         this.pins = pins;
-        this.musicKits = musicKits;
 
     }
 
@@ -71,10 +69,5 @@ public class Collection {
     @OneToMany
     @JoinColumn(name = "pin_collection_id", nullable = false)
     private List<Pin> pins;
-
-    @Nullable
-    @OneToMany
-    @JoinColumn(name = "musicKit_collection_id", nullable = false)
-    private List<MusicKit> musicKits;
 
 }

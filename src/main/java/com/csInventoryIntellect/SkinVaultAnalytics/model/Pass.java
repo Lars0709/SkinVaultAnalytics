@@ -12,7 +12,6 @@ import lombok.NoArgsConstructor;
 public class Pass {
 
     public Pass(String passName) {
-
         this.passName = passName;
     }
 
