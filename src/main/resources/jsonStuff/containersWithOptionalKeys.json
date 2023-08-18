@@ -28,5 +28,11 @@
       "keyName": "eSports Key",
       "keyType": "caseKey"
     }
+  },
+  {
+    "containerName": "Anubis package",
+    "obtainableNew": true,
+    "keyNeeded": false,
+    "dropActive": false
   }
 ]
