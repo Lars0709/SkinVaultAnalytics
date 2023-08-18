@@ -1,7 +1,6 @@
 [
     {
         "collectionName": "Operation Riptide Agents",
-        "numberOfItems": 21,
         "releaseYear": 2021,
         "collectionType": "agents",
         "agents": [
@@ -114,7 +113,6 @@
     },
     {
         "collectionName": "Broken Fang Agents",
-        "numberOfItems": 20,
         "releaseYear": 2020,
         "collectionType": "agents",
         "agents": [
@@ -222,7 +220,6 @@
     },
     {
         "collectionName": "Shattered Web Agents",
-        "numberOfItems": 22,
         "releaseYear": 2019,
         "collectionType": "agents",
         "agents": [

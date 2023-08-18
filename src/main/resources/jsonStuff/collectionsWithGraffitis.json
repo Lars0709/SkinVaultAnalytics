@@ -1,7 +1,6 @@
 [
     {
         "collectionName": "CS:GO Graffiti Box",
-        "numberOfItems": 17,
         "releaseYear": 9999,
         "collectionType": "graffitis",
         "graffitis": [
@@ -14,7 +13,6 @@
     },
     {
         "collectionName": "Community Graffiti Box 1",
-        "numberOfItems": 17,
         "releaseYear": 9999,
         "collectionType": "graffitis",
         "graffitis": [
@@ -27,7 +25,6 @@
     },
     {
         "collectionName": "Atlanta 2017 Team Graffiti",
-        "numberOfItems": 17,
         "releaseYear": 2017,
         "collectionType": "graffitis",
         "graffitis": [
@@ -40,7 +37,6 @@
     },
     {
         "collectionName": "Krakow 2017 Team Graffiti",
-        "numberOfItems": 17,
         "releaseYear": 2017,
         "collectionType": "graffitis",
         "graffitis": [
@@ -53,7 +49,6 @@
     },
     {
         "collectionName": "London 2018 Team Graffiti",
-        "numberOfItems": 17,
         "releaseYear": 2017,
         "collectionType": "graffitis",
         "graffitis": [
@@ -66,7 +61,6 @@
     },
     {
         "collectionName": "Perfect World Graffiti Box",
-        "numberOfItems": 17,
         "releaseYear": 9999,
         "collectionType": "graffitis",
         "graffitis": [
@@ -79,7 +73,6 @@
     },
     {
         "collectionName": "Boston 2018 Team Graffiti",
-        "numberOfItems": 26,
         "releaseYear": 2018,
         "collectionType": "graffitis",
         "graffitis": [
@@ -92,7 +85,6 @@
     },
     {
         "collectionName": "Trolling Graffiti Collection",
-        "numberOfItems": 16,
         "releaseYear": 2019,
         "collectionType": "graffitis",
         "graffitis": [
@@ -105,7 +97,6 @@
     },
     {
         "collectionName": "CSGO Graffiti 2 Collection Sprays",
-        "numberOfItems": 19,
         "releaseYear": 2019,
         "collectionType": "graffitis",
         "graffitis": [
@@ -118,7 +109,6 @@
     },
     {
         "collectionName": "CSGO Graffiti 3 Collection",
-        "numberOfItems": 16,
         "releaseYear": 2020,
         "collectionType": "graffitis",
         "graffitis": [
@@ -131,7 +121,6 @@
     },
     {
         "collectionName": "Stockholm 2021 Team Graffiti",
-        "numberOfItems": 25,
         "releaseYear": 2021,
         "collectionType": "graffitis",
         "graffitis": [

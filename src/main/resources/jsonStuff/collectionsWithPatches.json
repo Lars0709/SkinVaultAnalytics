@@ -1,7 +1,6 @@
 [
   {
     "collectionName": "Stockholm 2021 Legends Patch Pack",
-    "numberOfItems": 16,
     "releaseYear": 2021,
     "collectionType": "patches",
     "patches": [
@@ -14,7 +13,6 @@
   },
   {
     "collectionName": "Stockholm 2021 Challengers Patch Pack",
-    "numberOfItems": 16,
     "releaseYear": 2021,
     "collectionType": "patches",
     "patches": [
@@ -27,7 +25,6 @@
   },
   {
     "collectionName": "Stockholm 2021 Contenders Patch Pack",
-    "numberOfItems": 16,
     "releaseYear": 2021,
     "collectionType": "patches",
     "patches": [
@@ -40,7 +37,6 @@
   },
   {
     "collectionName": "Operation Riptide Patch Collection",
-    "numberOfItems": 13,
     "releaseYear": 2021,
     "collectionType": "patches",
     "patches": [
@@ -53,7 +49,6 @@
   },
   {
     "collectionName": "Metal Skill Group Patch Collection",
-    "numberOfItems": 12,
     "releaseYear": 2020,
     "collectionType": "patches",
     "patches": [
@@ -66,7 +61,6 @@
   },
   {
     "collectionName": "CS:GO Patch Pack",
-    "numberOfItems": 21,
     "releaseYear": 2020,
     "collectionType": "patches",
     "patches": [
@@ -79,7 +73,6 @@
   },
   {
     "collectionName": "Half-Life: Alyx Patch Pack",
-    "numberOfItems": 11,
     "releaseYear": 2020,
     "collectionType": "patches",
     "patches": [

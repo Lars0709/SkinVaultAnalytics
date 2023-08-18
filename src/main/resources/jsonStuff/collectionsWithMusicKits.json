@@ -1,7 +1,6 @@
 [
   {
     "collectionName": "sample music kit collection",
-    "numberOfItems": 17,
     "releaseYear": 9999,
     "collectionType": "musicKits",
     "musicKits": [
