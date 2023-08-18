@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.lang.Nullable;
 
 @Entity(name = "container")
 @Data
@@ -12,12 +11,12 @@ import org.springframework.lang.Nullable;
 @NoArgsConstructor
 public class Container {
 
-    public Container(Collection collection, int numberOfItems, String rarities, int yearOfRelease) {
+    public Container(String containerName, boolean obtainableNew, boolean keyNeeded, boolean dropActive) {
 
-        this.collection = collection;
-        this.numberOfItems = numberOfItems;
-        this.rarities = rarities;
-        this.yearOfRelease = yearOfRelease;
+        this.containerName = containerName;
+        this.obtainableNew = obtainableNew;
+        this.keyNeeded = keyNeeded;
+        this.dropActive = dropActive;
 
     }
 
@@ -25,15 +24,9 @@ public class Container {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Nullable
-    @ManyToOne
-    @JoinColumn(name = "collection_id")
-    private Collection collection;
-
-    private int numberOfItems;
-
-    private String rarities;
-
-    private int yearOfRelease;
+    private String containerName;
+    private boolean obtainableNew;
+    private boolean keyNeeded;
+    private boolean dropActive;
 
 }

@@ -1,0 +1,157 @@
+// Collection mit key und container optional
+
+[
+  {
+    "collectionName": "The eSports 2013 Collection",
+    "numberOfItems": 9,
+    "releaseYear": 2013,
+    "collectionType": "skins",
+    "skins": [
+      {
+        "skinName": "Doomkitty",
+        "rarity": "Mil-Spec",
+        "minWear": 0.08,
+        "maxWear": 0.22,
+        "gunType": "FAMAS",
+        "finishStyle": "Hydrographic",
+        "statTrakPossible": true,
+        "souvenirPossible": false,
+        "stickerSlotOnePossible": true,
+        "stickerSlotTwoPossible": true,
+        "stickerSlotThreePossible": true,
+        "stickerSlotFourPossible": true,
+        "stickerSlotFivePossible": false
+      },
+      {
+        "skinName": "Memento",
+        "rarity": "Mil-Spec",
+        "minWear": 0.02,
+        "maxWear": 0.18,
+        "gunType": "MAG-7",
+        "finishStyle": "Hydrographic",
+        "statTrakPossible": true,
+        "souvenirPossible": false,
+        "stickerSlotOnePossible": true,
+        "stickerSlotTwoPossible": true,
+        "stickerSlotThreePossible": true,
+        "stickerSlotFourPossible": true,
+        "stickerSlotFivePossible": false
+      },
+      {
+        "skinName": "Faded Zebra",
+        "rarity": "Mil-Spec",
+        "minWear": 0.06,
+        "maxWear": 0.8,
+        "gunType": "M4A4",
+        "finishStyle": "Spray-Paint",
+        "statTrakPossible": true,
+        "souvenirPossible": false,
+        "stickerSlotOnePossible": true,
+        "stickerSlotTwoPossible": true,
+        "stickerSlotThreePossible": true,
+        "stickerSlotFourPossible": true,
+        "stickerSlotFivePossible": false
+      },
+      {
+        "skinName": "Splash",
+        "rarity": "Restricted",
+        "minWear": 0.06,
+        "maxWear": 0.18,
+        "gunType": "P250",
+        "finishStyle": "Spray-Paint",
+        "statTrakPossible": true,
+        "souvenirPossible": false,
+        "stickerSlotOnePossible": true,
+        "stickerSlotTwoPossible": true,
+        "stickerSlotThreePossible": true,
+        "stickerSlotFourPossible": true,
+        "stickerSlotFivePossible": false
+      },
+      {
+        "skinName": "Orange DDPAT",
+        "rarity": "Restricted",
+        "minWear": 0.06,
+        "maxWear": 0.8,
+        "gunType": "Galil AR",
+        "finishStyle": "Hydrographic",
+        "statTrakPossible": true,
+        "souvenirPossible": false,
+        "stickerSlotOnePossible": true,
+        "stickerSlotTwoPossible": true,
+        "stickerSlotThreePossible": true,
+        "stickerSlotFourPossible": true,
+        "stickerSlotFivePossible": false
+      },
+      {
+        "skinName": "Orange DDPAT",
+        "rarity": "Restricted",
+        "minWear": 0.06,
+        "maxWear": 0.8,
+        "gunType": "Sawed-Off",
+        "finishStyle": "Hydrographic",
+        "statTrakPossible": true,
+        "souvenirPossible": false,
+        "stickerSlotOnePossible": true,
+        "stickerSlotTwoPossible": true,
+        "stickerSlotThreePossible": true,
+        "stickerSlotFourPossible": true,
+        "stickerSlotFivePossible": false
+      },
+      {
+        "skinName": "Red Laminate",
+        "rarity": "Classified",
+        "minWear": 0.06,
+        "maxWear": 0.8,
+        "gunType": "AK-47",
+        "finishStyle": "Hydrographic",
+        "statTrakPossible": true,
+        "souvenirPossible": false,
+        "stickerSlotOnePossible": true,
+        "stickerSlotTwoPossible": true,
+        "stickerSlotThreePossible": true,
+        "stickerSlotFourPossible": true,
+        "stickerSlotFivePossible": false
+      },
+      {
+        "skinName": "BOOM",
+        "rarity": "Classified",
+        "minWear": 0.06,
+        "maxWear": 0.28,
+        "gunType": "AWP",
+        "finishStyle": "Hydrographic",
+        "statTrakPossible": true,
+        "souvenirPossible": false,
+        "stickerSlotOnePossible": true,
+        "stickerSlotTwoPossible": true,
+        "stickerSlotThreePossible": true,
+        "stickerSlotFourPossible": true,
+        "stickerSlotFivePossible": false
+      },
+      {
+        "skinName": "Death by Kitty",
+        "rarity": "Covert",
+        "minWear": 0.08,
+        "maxWear": 0.32,
+        "gunType": "P90",
+        "finishStyle": "Hydrographic",
+        "statTrakPossible": true,
+        "souvenirPossible": false,
+        "stickerSlotOnePossible": true,
+        "stickerSlotTwoPossible": true,
+        "stickerSlotThreePossible": true,
+        "stickerSlotFourPossible": true,
+        "stickerSlotFivePossible": false
+      }
+    ],
+    "container": {
+      "containerName": "eSports 2013 Case",
+      "obtainableNew": false,
+      "keyNeeded": true,
+      "dropActive": false
+    },
+    "key": {
+      "keyName": "eSports Key",
+      "keyType": "caseKey"
+    }
+  }
+]

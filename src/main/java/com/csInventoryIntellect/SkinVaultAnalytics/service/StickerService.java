@@ -1,8 +1,6 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.service;
 
-import com.csInventoryIntellect.SkinVaultAnalytics.model.Collection;
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Sticker;
-import com.csInventoryIntellect.SkinVaultAnalytics.repository.CollectionRepository;
 import com.csInventoryIntellect.SkinVaultAnalytics.repository.StickerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

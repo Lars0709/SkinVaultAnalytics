@@ -1,15 +1,13 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.annotation.Nullable;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.lang.Nullable;
 
 import java.util.Date;
+import java.util.List;
 
 @Entity(name = "events")
 @Data
@@ -17,21 +15,19 @@ import java.util.Date;
 @NoArgsConstructor
 public class Event {
 
-    // major, operation, stickersale???
 
-    public Event(Date startDate, Date endDate, String type, String location, String majorWinner,
-                 String additionalInformation) {
+    public Event(Date startDate, @Nullable Date endDate, String type, @Nullable String location,
+                 @Nullable String majorWinner, @Nullable String additionalInformation, @Nullable Pass pass) {
 
         this.startDate = startDate;
         this.endDate = endDate;
-        this.type = type;
+        this.type = type;     // major, operation, stickersale???
         this.location = location;
         this.majorWinner = majorWinner;
         this.additionalInformation = additionalInformation;
+        this.pass = pass;
 
     }
-
-    // collections in addition????????
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -47,5 +43,10 @@ public class Event {
     private String majorWinner;
     @Nullable
     private String additionalInformation;
+
+    @Nullable
+    @OneToOne
+    @JoinColumn(name = "pass_id", nullable = false)
+    private Pass pass;
 
 }

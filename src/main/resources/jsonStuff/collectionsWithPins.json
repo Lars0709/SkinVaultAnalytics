@@ -1,0 +1,50 @@
+[
+  {
+    "collectionName": "Collectible Pins Capsule Series 1",
+    "numberOfItems": 11,
+    "releaseYear": 9999,
+    "collectionType": "pins",
+    "pins": [
+      {
+        "pinName": "sample pin name",
+        "rarity": "rare idk"
+      }
+    ]
+  },
+  {
+    "collectionName": "Collectible Pins Capsule Series 2",
+    "numberOfItems": 11,
+    "releaseYear": 9999,
+    "collectionType": "pins",
+    "pins": [
+      {
+        "pinName": "sample pin name",
+        "rarity": "rare idk"
+      }
+    ]
+  },
+  {
+    "collectionName": "Collectible Pins Capsule Series 3",
+    "numberOfItems": 11,
+    "releaseYear": 9999,
+    "collectionType": "pins",
+    "pins": [
+      {
+        "pinName": "sample pin name",
+        "rarity": "rare idk"
+      }
+    ]
+  },
+  {
+    "collectionName": "Half-Life: Alyx Collectible Pins Capsule",
+    "numberOfItems": 12,
+    "releaseYear": 9999,
+    "collectionType": "pins",
+    "pins": [
+      {
+        "pinName": "sample pin name",
+        "rarity": "rare idk"
+      }
+    ]
+  }
+]

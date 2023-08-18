@@ -1,0 +1,93 @@
+[
+  {
+    "collectionName": "Stockholm 2021 Legends Patch Pack",
+    "numberOfItems": 16,
+    "releaseYear": 2021,
+    "collectionType": "patches",
+    "patches": [
+      {
+        "patchName": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
+        "rarity": "Master",
+        "type": "ct"
+      }
+    ]
+  },
+  {
+    "collectionName": "Stockholm 2021 Challengers Patch Pack",
+    "numberOfItems": 16,
+    "releaseYear": 2021,
+    "collectionType": "patches",
+    "patches": [
+      {
+        "patchName": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
+        "rarity": "Master",
+        "type": "ct"
+      }
+    ]
+  },
+  {
+    "collectionName": "Stockholm 2021 Contenders Patch Pack",
+    "numberOfItems": 16,
+    "releaseYear": 2021,
+    "collectionType": "patches",
+    "patches": [
+      {
+        "patchName": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
+        "rarity": "Master",
+        "type": "ct"
+      }
+    ]
+  },
+  {
+    "collectionName": "Operation Riptide Patch Collection",
+    "numberOfItems": 13,
+    "releaseYear": 2021,
+    "collectionType": "patches",
+    "patches": [
+      {
+        "patchName": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
+        "rarity": "Master",
+        "type": "ct"
+      }
+    ]
+  },
+  {
+    "collectionName": "Metal Skill Group Patch Collection",
+    "numberOfItems": 12,
+    "releaseYear": 2020,
+    "collectionType": "patches",
+    "patches": [
+      {
+        "patchName": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
+        "rarity": "Master",
+        "type": "ct"
+      }
+    ]
+  },
+  {
+    "collectionName": "CS:GO Patch Pack",
+    "numberOfItems": 21,
+    "releaseYear": 2020,
+    "collectionType": "patches",
+    "patches": [
+      {
+        "patchName": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
+        "rarity": "Master",
+        "type": "ct"
+      }
+    ]
+  },
+  {
+    "collectionName": "Half-Life: Alyx Patch Pack",
+    "numberOfItems": 11,
+    "releaseYear": 2020,
+    "collectionType": "patches",
+    "patches": [
+      {
+        "patchName": "Chef d'Escadron Rouchard | Gendarmerie Nationale",
+        "rarity": "Master",
+        "type": "ct"
+      }
+    ]
+  }
+]

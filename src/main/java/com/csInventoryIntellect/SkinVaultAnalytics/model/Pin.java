@@ -11,10 +11,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Pin {
 
-    public Pin(String pinName, Collection collection, String rarity) {
+    public Pin(String pinName, String rarity) {
         this.pinName = pinName;
         this.rarity = rarity;
-        this.collection = collection;
     }
 
     @Id
@@ -23,8 +22,5 @@ public class Pin {
 
     private String pinName;
     private String rarity;
-    @ManyToOne
-    @JoinColumn(name = "collection_id")
-    private Collection collection;
 
 }

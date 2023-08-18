@@ -11,10 +11,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Patch {
 
-    public Patch(String patchName, Collection collection, String rarity) {
+    public Patch(String patchName, String rarity) {
         this.patchName = patchName;
         this.rarity = rarity;
-        this.collection = collection;
+
     }
 
     @Id
@@ -23,8 +23,5 @@ public class Patch {
 
     private String patchName;
     private String rarity;
-    @ManyToOne
-    @JoinColumn(name = "collection_id")
-    private Collection collection;
 
 }
