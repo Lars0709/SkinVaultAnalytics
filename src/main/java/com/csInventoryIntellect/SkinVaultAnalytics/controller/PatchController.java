@@ -1,7 +1,7 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.controller;
 
-import com.csInventoryIntellect.SkinVaultAnalytics.model.Pass;
-import com.csInventoryIntellect.SkinVaultAnalytics.service.PassService;
+import com.csInventoryIntellect.SkinVaultAnalytics.model.Patch;
+import com.csInventoryIntellect.SkinVaultAnalytics.service.PatchService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/passes")
-public class PassController {
+@RequestMapping("/patches")
+public class PatchController {
 
     @Autowired
-    private PassService passService;
+    private PatchService patchService;
 
     @GetMapping
-    public List<Pass> getAllPasses(){
-        return passService.getAllPasses();
+    public List<Patch> getAllPatches(){
+        return patchService.getAllPatches();
     }
 
 }

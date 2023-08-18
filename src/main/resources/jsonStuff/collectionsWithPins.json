@@ -1,45 +1,209 @@
 [
   {
     "collectionName": "Collectible Pins Capsule Series 1",
-    "releaseYear": 9999,
+    "releaseYear": 2016,
     "collectionType": "pins",
     "pins": [
       {
-        "pinName": "sample pin name",
-        "rarity": "rare idk"
+        "pinName": "Valeria Phoenix Pin",
+        "rarity": "Extraordinary"
+      },
+      {
+        "pinName": "Chroma Pin",
+        "rarity": "Extraordinary"
+      },
+      {
+        "pinName": "Cache Pin",
+        "rarity": "Exotic"
+      },
+      {
+        "pinName": "Bloodhound Pin",
+        "rarity": "Exotic"
+      },
+      {
+        "pinName": "Cobblestone Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Office Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Overpass Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Baggage Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Bravo Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Guardian 2 Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Phoenix Pin",
+        "rarity": "High Grade"
       }
     ]
   },
   {
     "collectionName": "Collectible Pins Capsule Series 2",
-    "releaseYear": 9999,
+    "releaseYear": 2016,
     "collectionType": "pins",
     "pins": [
       {
-        "pinName": "sample pin name",
-        "rarity": "rare idk"
+        "pinName": "Dust II Pin",
+        "rarity": "Extraordinary"
+      },
+      {
+        "pinName": "Guardian Elite Pin",
+        "rarity": "Extraordinary"
+      },
+      {
+        "pinName": "Mirage Pin",
+        "rarity": "Exotic"
+      },
+      {
+        "pinName": "Inferno Pin",
+        "rarity": "Exotic"
+      },
+      {
+        "pinName": "Nuke Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Victory Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Guardian Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Tactics Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Italy Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Militia Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Train Pin",
+        "rarity": "High Grade"
       }
     ]
   },
   {
     "collectionName": "Collectible Pins Capsule Series 3",
-    "releaseYear": 9999,
+    "releaseYear": 2018,
     "collectionType": "pins",
     "pins": [
       {
-        "pinName": "sample pin name",
-        "rarity": "rare idk"
+        "pinName": "Brigadier General Pin",
+        "rarity": "Extraordinary"
+      },
+      {
+        "pinName": "Howl Pin",
+        "rarity": "Extraordinary"
+      },
+      {
+        "pinName": "Aces High Pin",
+        "rarity": "Exotic"
+      },
+      {
+        "pinName": "Hydra Pin",
+        "rarity": "Exotic"
+      },
+      {
+        "pinName": "Easy Peasy Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Inferno 2 Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Wildfire Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Canals Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Death Sentence Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Guardian 3 Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Welcome to the Clutch Pin",
+        "rarity": "High Grade"
       }
     ]
   },
   {
     "collectionName": "Half-Life: Alyx Collectible Pins Capsule",
-    "releaseYear": 9999,
+    "releaseYear": 2020,
     "collectionType": "pins",
     "pins": [
       {
-        "pinName": "sample pin name",
-        "rarity": "rare idk"
+        "pinName": "Alyx Pin",
+        "rarity": "Extraordinary"
+      },
+      {
+        "pinName": "Civil Protection Pin",
+        "rarity": "Extraordinary"
+      },
+      {
+        "pinName": "Sustenance! Pin",
+        "rarity": "Exotic"
+      },
+      {
+        "pinName": "Vortigaunt Pin",
+        "rarity": "Exotic"
+      },
+      {
+        "pinName": "Copper Lambda Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Headcrab Glyph Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Health Pin",
+        "rarity": "Remarkable"
+      },
+      {
+        "pinName": "Black Mesa Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "City 17 Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "CMB Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Combine Helmet Pin",
+        "rarity": "High Grade"
+      },
+      {
+        "pinName": "Lambda Pin",
+        "rarity": "High Grade"
       }
     ]
   }

@@ -6,7 +6,7 @@
     "location": "Katowice",
     "majorWinner": "VP",
     "additionalInformation": "first event ever",
-    "pass": [
+    "passes": [
       {
         "passName": "test pass"
       },

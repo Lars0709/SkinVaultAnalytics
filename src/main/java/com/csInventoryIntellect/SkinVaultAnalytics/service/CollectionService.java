@@ -32,8 +32,10 @@ public class CollectionService {
     @Autowired
     private GraffitiRepository graffitiRepository;
 
+    /*
     @Autowired
     private MusicKitRepository musicKitRepository;
+     */
 
 
     // Create new Collection
@@ -61,32 +63,54 @@ public class CollectionService {
 
             if (collection.getPatches() != null){
                 patchRepository.saveAll(collection.getPatches());
+
+                // check ob patch schon da ist (pgl gold und normal 3x vorhanden)
+
+                /*
+                for (Container container : containers) {
+
+            if (container.getKey() != null) {
+
+                try{
+                    Optional<Key> keyFromDB = keyRepository.searchByKeyName(container.getKey().getKeyName());
+                    if (keyFromDB.isPresent()){
+                        container.setKey(keyFromDB.get());
+                        keyRepository.save(container.getKey());
+                    } else {
+                        keyRepository.save(container.getKey());
+                    }
+                } catch (Exception e){
+                    return e.toString();
+                }
+            }
+        }
+                 */
+
             }
 
             if (collection.getGraffitis() != null){
                 graffitiRepository.saveAll(collection.getGraffitis());
             }
 
+            /*
             if (collection.getMusicKits() != null){
                 musicKitRepository.saveAll(collection.getMusicKits());
             }
+             */
 
         }
 
         return "Added all Collections successfully!";
     }
 
-    // Get all Collections
     public List<Collection> getAllCollections(){
         return collectionRepository.findAll();
     }
 
-    // Get collection by ID
     public Optional<Collection> getCollectionById(Long id){
         return collectionRepository.findById(id);
     }
 
-    // Delete collection by ID
     public void deleteCollectionById(Long id){
         collectionRepository.deleteById(id);
     }

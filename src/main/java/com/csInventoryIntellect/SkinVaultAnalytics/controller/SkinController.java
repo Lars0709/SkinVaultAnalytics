@@ -11,6 +11,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/skins")
 public class SkinController {
+
     @Autowired
     private SkinService skinService;
 
