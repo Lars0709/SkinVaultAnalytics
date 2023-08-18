@@ -21,15 +21,13 @@ public class ContainerService {
 
     public String createContainers(List<Container> containers) {
 
-        containerRepository.saveAll(containers);
 
         for (Container container : containers) {
 
             if (container.getKey() != null) {
 
-                /*
                 try{
-                    Optional<Key> keyFromDB = keyRepository.searchByKeyName(container.getKey());
+                    Optional<Key> keyFromDB = keyRepository.searchByKeyName(container.getKey().getKeyName());
                     if (keyFromDB.isPresent()){
                         container.setKey(keyFromDB.get());
                         keyRepository.save(container.getKey());
@@ -39,10 +37,10 @@ public class ContainerService {
                 } catch (Exception e){
                     return e.toString();
                 }
-                 */
-                keyRepository.save(container.getKey());
             }
         }
+
+        containerRepository.saveAll(containers);
 
         return "Added all Containers and their keys (if existing) successfully!";
     }
