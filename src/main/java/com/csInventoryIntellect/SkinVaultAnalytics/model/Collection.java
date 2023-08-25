@@ -61,7 +61,7 @@ public class Collection {
     private List<Agent> agents;
 
     @Nullable
-    @OneToMany
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "patch_collection_id", nullable = false)
     private List<Patch> patches;
 
