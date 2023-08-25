@@ -15,7 +15,8 @@ public class IndividualSkin {
                           String eventSouvenir, boolean stickerSlotOneApplied, boolean stickerSlotTwoApplied,
                           boolean stickerSlotThreeApplied, boolean stickerSlotFourApplied, boolean stickerSlotFiveApplied,
                           Sticker stickerSlotOne, Sticker stickerSlotTwo, Sticker stickerSlotThree, Sticker stickerSlotFour,
-                          Sticker stickerSlotFive, boolean unboxed, boolean crafted, boolean levelUpReward,
+                          Sticker stickerSlotFive,int stickerSlotOneWear, int stickerSlotTwoWear, int stickerSlotThreeWear,
+                          int stickerSlotFourWear, int stickerSlotFiveWear, boolean unboxed, boolean crafted, boolean levelUpReward,
                           String speciality) {
 
         this.skin = skin;
@@ -35,14 +36,17 @@ public class IndividualSkin {
         this.stickerSlotThree = stickerSlotThree;
         this.stickerSlotFour = stickerSlotFour;
         this.stickerSlotFive = stickerSlotFive;
+        this.stickerSlotOneWear = stickerSlotOneWear;
+        this.stickerSlotTwoWear = stickerSlotTwoWear;
+        this.stickerSlotThreeWear = stickerSlotThreeWear;
+        this.stickerSlotFourWear = stickerSlotFourWear;
+        this.stickerSlotFiveWear = stickerSlotFiveWear;
         this.unboxed = unboxed;
         this.crafted = crafted;
         this.levelUpReward = levelUpReward;
         this.speciality = speciality;
     }
 
-    // sticker verlinken mit sticker db über id
-    // one to many
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -54,11 +58,6 @@ public class IndividualSkin {
 
     private String nameTag;
     private double wearFloat;
-
-    @ManyToOne
-    @JoinColumn(name = "collection_id")
-    private Collection collection;
-
     private int patternId;
     private boolean statTrak;
     private boolean souvenir;
@@ -68,6 +67,11 @@ public class IndividualSkin {
     private boolean stickerSlotThreeApplied;
     private boolean stickerSlotFourApplied;
     private boolean stickerSlotFiveApplied;
+    private int stickerSlotOneWear;
+    private int stickerSlotTwoWear;
+    private int stickerSlotThreeWear;
+    private int stickerSlotFourWear;
+    private int stickerSlotFiveWear;
     @ManyToOne
     @JoinColumn(name = "sticker_slot_one_id")
     private Sticker stickerSlotOne;
