@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skin Collections</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+</head>
+<body>
+
+<div class="card-group justify-content-center">
+    <div th:each="collection : ${collections}">
+        <div class="card px-3 mx-2 mitte" style="height: 550px; width: 360px;">
+
+            <a class="mx-auto d-block" th:href="${'http://localhost:8080/collection/?id=' + collection.id}"></a>
+
+            <div class="card-body">
+                <div class="item_list_text fs-4">
+                    <a class="card-title removeLinkDesign"
+                       th:href="${'http://localhost:8080/collection/?id=' + collection.id}">
+                        <td th:text="${collection.collectionName}"></td>
+                    </a>
+                </div>
+                <div class="item_list_text">
+                    <p class="card-text" th:text="${collection.releaseYear}"></p>
+                    <p class="card-text" th:text="${collection.collectionType}"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+</body>
+</html>

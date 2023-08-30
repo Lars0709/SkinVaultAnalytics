@@ -1,4 +1,4 @@
-package com.csInventoryIntellect.SkinVaultAnalytics.controller;
+package com.csInventoryIntellect.SkinVaultAnalytics.controller.baseDatabankController;
 
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Collection;
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Sticker;
