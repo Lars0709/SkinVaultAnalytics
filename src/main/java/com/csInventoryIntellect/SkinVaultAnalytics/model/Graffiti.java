@@ -1,9 +1,15 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.model;
 
-import jakarta.persistence.*;
+import jakarta.annotation.Nullable;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.List;
 
 @Entity(name = "graffitis")
 @Data
@@ -11,9 +17,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Graffiti {
 
-    public Graffiti (String graffitiName, String rarity, String type){
+    public Graffiti (String graffitiName, String rarity, @Nullable List<String> colors, String type){
         this.graffitiName = graffitiName;
         this.rarity = rarity;
+        this.colors = colors;
         this.type = type;
     }
 
@@ -23,6 +30,8 @@ public class Graffiti {
 
     private String graffitiName;
     private String rarity;
+    @Nullable
+    private List<String> colors;
     private String type;
 
 }

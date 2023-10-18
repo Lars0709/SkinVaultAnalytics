@@ -1,25 +1,292 @@
 [
     {
         "collectionName": "CS:GO Graffiti Box",
-        "releaseYear": 9999,
+        "releaseYear": 2016,
         "collectionType": "graffitis",
         "graffitis": [
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
+                "graffitiName": "Howling Dawn",
+                "rarity": "Exotic",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Clutch King",
+                "rarity": "Exotic",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Fire Serpent",
+                "rarity": "Exotic",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Crown",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "EZ",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Kisses",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Cerberus",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "R.I.P.I.P.",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Real MVP",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Wings",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Welcome to the Clutch",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Banana",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Guardian",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Skull n' Crosshairs",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Easy Peasy",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Ace",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Nice Shot",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Phoenix",
+                "rarity": "High Grade",
+                "type": "Standard"
             }
         ]
     },
     {
         "collectionName": "Community Graffiti Box 1",
-        "releaseYear": 9999,
+        "releaseYear": 2016,
         "collectionType": "graffitis",
         "graffitis": [
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
+                "graffitiName": "Drug War Veteran",
+                "rarity": "Exotic",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Rekt",
+                "rarity": "Exotic",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Blood Boiler",
+                "rarity": "Exotic",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Tamara",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Kawaii Killer CT",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Kawaii Killer Terrorist",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Rising Skull",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Hamster Hawk",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Martha",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Unicorn",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Ivette",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Chabo",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Flickshot",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Winged Defuser",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Shave Master",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Old School",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Shooting Star Return",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Pocket BBQ",
+                "rarity": "High Grade",
+                "type": "Standard"
+            }
+        ]
+    },
+    {
+        "collectionName": "Perfect World Graffiti Box",
+        "releaseYear": 2017,
+        "collectionType": "graffitis",
+        "graffitis": [
+            {
+                "graffitiName": "Longevity",
+                "rarity": "Exotic",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Guardian Dragon",
+                "rarity": "Exotic",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Fancy Koi",
+                "rarity": "Exotic",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Pixiu",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Rage",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Twin Koi",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Cheongsam",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Water Gun",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Nezha",
+                "rarity": "Remarkable",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Zombie Hop",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Toy Tiger",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Shaolin",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Terror Rice",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Rice Bomb",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Non-Veg",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Noodles",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Hotpot",
+                "rarity": "High Grade",
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "God of Fortune",
+                "rarity": "High Grade",
+                "type": "Standard"
             }
         ]
     },
@@ -29,9 +296,89 @@
         "collectionType": "graffitis",
         "graffitis": [
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
+                "graffitiName": "Astralis",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "FaZe Clan",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Flipsid3 Tactics",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Fnatic",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "G2 Esports",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Gambit Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "GODSENT",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "HellRaisers",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Team Liquid",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "mousesports",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Natus Vincere",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "North",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "OpTic Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "SK Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Team EnVyUs",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Virtus.Pro",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "ELEAGUE",
+                "rarity": "High Grade",
+                "type": "Major"
             }
         ]
     },
@@ -41,33 +388,221 @@
         "collectionType": "graffitis",
         "graffitis": [
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
+                "graffitiName": "Avangar",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "BIG",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Cloud9",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "FaZe Clan",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Flipsid3 Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Fnatic",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "G2 Esports",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Gambit",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Immortals",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "mousesports",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Natus Vincere",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "North",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "PENTA Sports",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "SK Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Vega Squadron",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Virtus.Pro",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "PGL",
+                "rarity": "High Grade",
+                "type": "Major"
             }
         ]
     },
     {
         "collectionName": "London 2018 Team Graffiti",
-        "releaseYear": 2017,
+        "releaseYear": 2018,
         "collectionType": "graffitis",
         "graffitis": [
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
-            }
-        ]
-    },
-    {
-        "collectionName": "Perfect World Graffiti Box",
-        "releaseYear": 9999,
-        "collectionType": "graffitis",
-        "graffitis": [
+                "graffitiName": "Astralis",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
+                "graffitiName": "BIG",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Cloud9",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "compLexity Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "FaZe Clan",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Fnatic",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "G2 Esports",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Gambit",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "HellRaisers",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Team Liquid",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "MIBR",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "mousesports",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Natus Vincere",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Ninjas in Pyjamas",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "North",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "OpTic Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Renegades",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Rogue",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Space Soldiers",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Team Spirit",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "TYLOO",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Vega Squadron",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Virtus.pro",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Winstrike",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "FACEIT",
+                "rarity": "High Grade",
+                "type": "Major"
             }
         ]
     },
@@ -77,9 +612,129 @@
         "collectionType": "graffitis",
         "graffitis": [
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
+                "graffitiName": "Avangar",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Flash Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Team Liquid",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Misfits Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Team EnVyUs",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Quantum Bellator Fire",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Space Soldiers",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Cloud9",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "FaZe Clan",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Flipsid3 Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "G2 Esports",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "mousesports",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Natus Vincere",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Sprout",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Vega Squadron",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Astralis",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "BIG",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Fnatic",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Gambit",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "North",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "SK Gaming",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "Virtus.pro",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "TYLOO",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "100 Thieves",
+                "rarity": "High Grade",
+                "type": "Major"
+            },
+            {
+                "graffitiName": "PGL",
+                "rarity": "High Grade",
+                "type": "Major"
             }
         ]
     },
@@ -89,21 +744,227 @@
         "collectionType": "graffitis",
         "graffitis": [
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
+                "graffitiName": "1G",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "200 IQ",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Choke",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Dead Now",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Denied",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Dizzy",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Little EZ",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Fart",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "NT",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Okay",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Oops",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Puke",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Question Mark",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Rly",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Smarmy",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Smooch",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Uh Oh",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
             }
         ]
     },
     {
-        "collectionName": "CSGO Graffiti 2 Collection Sprays",
+        "collectionName": "CSGO Graffiti 2 Collection",
         "releaseYear": 2019,
         "collectionType": "graffitis",
         "graffitis": [
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
+                "graffitiName": "Applause",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "BEEP",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Bock Bock",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "BOOM",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Broken Heart",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Chef Kiss",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Goofy",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Grimace",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Happy Cat",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Hop",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Kiss",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Lightbulb",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Little Bock",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Little Crown",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "OMG",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Shining Star",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Silver Bullet",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Smirk",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Thoughtfull",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
             }
         ]
     },
@@ -113,21 +974,100 @@
         "collectionType": "graffitis",
         "graffitis": [
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
-            }
-        ]
-    },
-    {
-        "collectionName": "Stockholm 2021 Team Graffiti",
-        "releaseYear": 2021,
-        "collectionType": "graffitis",
-        "graffitis": [
+                "graffitiName": "Recoil AK-47",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
             {
-                "graffitiName": "sprayname",
-                "rarity": "kinda rare idk",
-                "type": "major graffiti"
+                "graffitiName": "Recoil AUG",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil AWP",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil CZ-75",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil FAMAS",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil Galil AR",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil M4A1-S",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil M4A4",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil MAC-10",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil MP7",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil MP9",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil P90",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil PP-Bizon",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil SG 553",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil UMP-45",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
+            },
+            {
+                "graffitiName": "Recoil XM1014",
+                "rarity": "Base Grade",
+                "colors": ["Battle Green","Monarch Blue","Monster Purple","Princess Pink","SWAT Blue","Tiger Orange","Tracer Yellow","Violent Violet","War Pig Pink","Wire Blue","Bazooka Pink","Blood Red","Brick Red","Cash Green","Desert Amber","Dust Brown","Frog Green","Jungle Green","Shark White"],
+                "type": "Standard"
             }
         ]
     }
