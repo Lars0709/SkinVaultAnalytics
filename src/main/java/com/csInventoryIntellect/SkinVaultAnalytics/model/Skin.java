@@ -14,9 +14,7 @@ import lombok.NoArgsConstructor;
 public class Skin {
 
     public Skin(String skinName, String rarity, double minWear, double maxWear, String gunType, String finishStyle,
-                boolean statTrakPossible, boolean souvenirPossible, boolean stickerSlotOnePossible,
-                boolean stickerSlotTwoPossible, boolean stickerSlotThreePossible, boolean stickerSlotFourPossible,
-                boolean stickerSlotFivePossible) {
+                boolean statTrakPossible, boolean souvenirPossible, boolean additionalStickerPossible) {
 
         this.skinName = skinName;
         this.rarity = rarity; // blue, purple, pink, red, gold, contraband
@@ -26,11 +24,7 @@ public class Skin {
         this.finishStyle = finishStyle; // pattern based etc.
         this.statTrakPossible = statTrakPossible;
         this.souvenirPossible = souvenirPossible;
-        this.stickerSlotOnePossible = stickerSlotOnePossible;
-        this.stickerSlotTwoPossible = stickerSlotTwoPossible;
-        this.stickerSlotThreePossible = stickerSlotThreePossible;
-        this.stickerSlotFourPossible = stickerSlotFourPossible;
-        this.stickerSlotFivePossible = stickerSlotFivePossible;
+        this.additionalStickerPossible = additionalStickerPossible;
     }
 
     @Id
@@ -45,11 +39,7 @@ public class Skin {
     private String finishStyle;
     private boolean statTrakPossible;
     private boolean souvenirPossible;
-    private boolean stickerSlotOnePossible;
-    private boolean stickerSlotTwoPossible;
-    private boolean stickerSlotThreePossible;
-    private boolean stickerSlotFourPossible;
-    private boolean stickerSlotFivePossible;
+    private boolean additionalStickerPossible;
 
 
 }
