@@ -1,5 +1,6 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.model;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,10 +15,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Agent {
 
-    public Agent(String agentName,String rarity, String type) {
+    public Agent(String agentName,String rarity, String type,@Nullable String agentImage) {
         this.agentName = agentName;
         this.rarity = rarity;
         this.type = type; // ct or t side
+        this.agentImage = agentImage;
     }
 
     @Id
@@ -27,5 +29,7 @@ public class Agent {
     private String agentName;
     private String rarity;
     private String type;
+    @Nullable
+    private String agentImage;
 
 }

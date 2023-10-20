@@ -1,4 +1,4 @@
-package com.csInventoryIntellect.SkinVaultAnalytics.controller.baseDatabankController;
+package com.csInventoryIntellect.SkinVaultAnalytics.controller.postmanController;
 
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Patch;
 import com.csInventoryIntellect.SkinVaultAnalytics.service.PatchService;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/patches")
-public class PatchController {
+@RequestMapping("/postmanPatches")
+public class PatchPostmanController {
 
     @Autowired
     private PatchService patchService;

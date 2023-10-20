@@ -1,4 +1,4 @@
-package com.csInventoryIntellect.SkinVaultAnalytics.controller.baseDatabankController;
+package com.csInventoryIntellect.SkinVaultAnalytics.controller.postmanController;
 
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Pass;
 import com.csInventoryIntellect.SkinVaultAnalytics.service.PassService;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/passes")
-public class PassController {
+@RequestMapping("/postmanPasses")
+public class PassPostmanController {
 
     @Autowired
     private PassService passService;

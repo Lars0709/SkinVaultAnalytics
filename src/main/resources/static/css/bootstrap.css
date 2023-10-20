@@ -190,7 +190,32 @@
   }
 }
 
+.text-red {
+  color: red;
+}
+
+.text-pink {
+  color: deeppink;
+}
+
+.text-purple {
+  color: rebeccapurple;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-lightblue {
+  color: lightskyblue;
+}
+
+.text-grey {
+  color: grey;
+}
+
 body {
+  padding-top: 100px;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -12058,6 +12083,11 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+
+.cropped-image {
+  margin-top: -50px; /* Adjust the negative margin to crop the desired amount */
+  margin-bottom: -50px; /* Adjust the negative margin to crop the desired amount */
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

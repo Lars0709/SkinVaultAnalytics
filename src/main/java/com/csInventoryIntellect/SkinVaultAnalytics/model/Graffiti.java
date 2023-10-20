@@ -17,11 +17,12 @@ import java.util.List;
 @NoArgsConstructor
 public class Graffiti {
 
-    public Graffiti (String graffitiName, String rarity, @Nullable List<String> colors, String type){
+    public Graffiti (String graffitiName, String rarity, @Nullable List<String> colors, String type, @Nullable String graffitiImage){
         this.graffitiName = graffitiName;
         this.rarity = rarity;
         this.colors = colors;
         this.type = type;
+        this.graffitiImage = graffitiImage;
     }
 
     @Id
@@ -33,5 +34,7 @@ public class Graffiti {
     @Nullable
     private List<String> colors;
     private String type;
+    @Nullable
+    private String graffitiImage;
 
 }

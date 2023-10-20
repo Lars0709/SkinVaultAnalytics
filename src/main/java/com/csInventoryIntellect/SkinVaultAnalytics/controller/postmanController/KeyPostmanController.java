@@ -1,4 +1,4 @@
-package com.csInventoryIntellect.SkinVaultAnalytics.controller.baseDatabankController;
+package com.csInventoryIntellect.SkinVaultAnalytics.controller.postmanController;
 
 
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Key;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/keys")
-public class KeyController {
+@RequestMapping("/postmanKeys")
+public class KeyPostmanController {
 
     @Autowired
     private KeyService keyService;

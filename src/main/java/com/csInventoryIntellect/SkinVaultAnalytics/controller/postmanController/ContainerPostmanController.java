@@ -1,4 +1,4 @@
-package com.csInventoryIntellect.SkinVaultAnalytics.controller.baseDatabankController;
+package com.csInventoryIntellect.SkinVaultAnalytics.controller.postmanController;
 
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Container;
 import com.csInventoryIntellect.SkinVaultAnalytics.service.ContainerService;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/containers")
-public class ContainerController {
+@RequestMapping("/postmanContainers")
+public class ContainerPostmanController {
 
     @Autowired
     private ContainerService containerService;

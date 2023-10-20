@@ -1,12 +1,10 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.service;
 
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Collection;
-import com.csInventoryIntellect.SkinVaultAnalytics.model.Patch;
 import com.csInventoryIntellect.SkinVaultAnalytics.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 

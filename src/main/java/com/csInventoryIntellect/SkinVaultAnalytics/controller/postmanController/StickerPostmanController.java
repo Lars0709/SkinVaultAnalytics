@@ -1,6 +1,5 @@
-package com.csInventoryIntellect.SkinVaultAnalytics.controller.baseDatabankController;
+package com.csInventoryIntellect.SkinVaultAnalytics.controller.postmanController;
 
-import com.csInventoryIntellect.SkinVaultAnalytics.model.Collection;
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Sticker;
 import com.csInventoryIntellect.SkinVaultAnalytics.service.StickerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +9,8 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/sticker")
-public class StickerController {
+@RequestMapping("/postmanSticker")
+public class StickerPostmanController {
 
     @Autowired
     private StickerService stickerService;

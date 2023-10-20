@@ -1,4 +1,4 @@
-package com.csInventoryIntellect.SkinVaultAnalytics.controller.baseDatabankController;
+package com.csInventoryIntellect.SkinVaultAnalytics.controller.postmanController;
 
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Skin;
 import com.csInventoryIntellect.SkinVaultAnalytics.service.SkinService;
@@ -9,8 +9,8 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/skins")
-public class SkinController {
+@RequestMapping("/postmanSkins")
+public class SkinPostmanController {
 
     @Autowired
     private SkinService skinService;

@@ -16,13 +16,14 @@ import java.util.List;
 public class Collection {
 
 
-    public Collection(String collectionName, int releaseYear, String collectionType,
+    public Collection(String collectionName, int releaseYear, String collectionType, @Nullable String collectionImage,
                       @Nullable List<Skin> skins, @Nullable List<Sticker> stickers, @Nullable List<Graffiti> graffitis,
                       @Nullable List<Agent> agents, @Nullable List<Patch> patches, @Nullable List<Pin> pins) {
 
         this.collectionName = collectionName;
         this.releaseYear = releaseYear;
         this.collectionType = collectionType;
+        this.collectionImage = collectionImage;
         this.skins = skins;
         this.stickers = stickers;
         this.graffitis = graffitis;
@@ -39,6 +40,7 @@ public class Collection {
     private String collectionName;
     private int releaseYear;
     private String collectionType;
+    private String collectionImage;
 
     @Nullable
     @OneToMany

@@ -1,5 +1,6 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.model;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,9 +12,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Pin {
 
-    public Pin(String pinName, String rarity) {
+    public Pin(String pinName, String rarity, @Nullable String pinImage) {
         this.pinName = pinName;
         this.rarity = rarity;
+        this.pinImage = pinImage;
     }
 
     @Id
@@ -22,5 +24,7 @@ public class Pin {
 
     private String pinName;
     private String rarity;
+    @Nullable
+    private String pinImage;
 
 }

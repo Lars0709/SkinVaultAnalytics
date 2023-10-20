@@ -1,5 +1,6 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.model;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,9 +12,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Patch {
 
-    public Patch(String patchName, String rarity) {
+    public Patch(String patchName, String rarity, @Nullable String patchImage) {
         this.patchName = patchName;
         this.rarity = rarity;
+        this.patchImage = patchImage;
 
     }
 
@@ -23,5 +25,7 @@ public class Patch {
 
     private String patchName;
     private String rarity;
+    @Nullable
+    private String patchImage;
 
 }

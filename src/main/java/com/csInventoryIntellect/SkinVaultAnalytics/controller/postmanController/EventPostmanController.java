@@ -1,8 +1,6 @@
-package com.csInventoryIntellect.SkinVaultAnalytics.controller.baseDatabankController;
+package com.csInventoryIntellect.SkinVaultAnalytics.controller.postmanController;
 
-import com.csInventoryIntellect.SkinVaultAnalytics.model.Container;
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Event;
-import com.csInventoryIntellect.SkinVaultAnalytics.service.ContainerService;
 import com.csInventoryIntellect.SkinVaultAnalytics.service.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/events")
-public class EventController {
+@RequestMapping("/postmanEvents")
+public class EventPostmanController {
 
     @Autowired
     private EventService eventService;

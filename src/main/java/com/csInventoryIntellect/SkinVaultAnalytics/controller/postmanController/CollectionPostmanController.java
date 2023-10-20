@@ -1,4 +1,4 @@
-package com.csInventoryIntellect.SkinVaultAnalytics.controller.baseDatabankController;
+package com.csInventoryIntellect.SkinVaultAnalytics.controller.postmanController;
 
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Collection;
 import com.csInventoryIntellect.SkinVaultAnalytics.service.CollectionService;
@@ -12,12 +12,11 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/postmanCollections")
-public class CollectionController {
+public class CollectionPostmanController {
 
     @Autowired
     private CollectionService collectionService;
 
-    // Create new collection
     @PostMapping
     public ResponseEntity<String> createCollection(@RequestBody List<Collection> collections){
 
