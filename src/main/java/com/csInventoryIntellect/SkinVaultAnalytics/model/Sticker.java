@@ -30,6 +30,7 @@ public class Sticker {
     private String rarity;
     private String type;
     @Nullable
+    @Column(length = 1000)
     private String stickerImage;
 
 }

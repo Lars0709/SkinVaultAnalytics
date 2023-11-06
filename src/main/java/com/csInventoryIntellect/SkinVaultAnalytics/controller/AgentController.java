@@ -1,7 +1,8 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.controller;
 
+import com.csInventoryIntellect.SkinVaultAnalytics.model.Agent;
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Collection;
-import com.csInventoryIntellect.SkinVaultAnalytics.model.Skin;
+import com.csInventoryIntellect.SkinVaultAnalytics.repository.AgentRepository;
 import com.csInventoryIntellect.SkinVaultAnalytics.repository.CollectionRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -15,27 +16,32 @@ import java.util.Optional;
 
 @Controller
 @AllArgsConstructor
-public class CollectionController {
+public class AgentController {
+
+    private final AgentRepository agentRepository;
 
     private final CollectionRepository collectionRepository;
 
-    @GetMapping(value = "/collections")
-    private String allCollectionsMain(Model model){
+    @GetMapping(value ="/agents")
+    private String websiteAllAgentsPage(Model model) {
 
-        List<Collection> collections = collectionRepository.searchByCollectionTypeContainingIgnoreCase("skins-collection");
-        model.addAttribute("collections", collections);
+        List<Agent> agents = agentRepository.findAll();
 
-        return "collections";
+        agents.sort(Comparator.comparingLong(Agent::getId));
+
+        model.addAttribute("agents", agents);
+
+        return "agents";
     }
 
-    @GetMapping(value = "/collection/{id}")
-    private String collectionSpecificPage(Model model, @PathVariable(value = "id") Long id) {
+    @GetMapping(value = "/agents/{id}")
+    private String agentCollectionSpecificPage(Model model, @PathVariable(value = "id") Long id) {
 
         Optional<Collection> collection = collectionRepository.findById(id);
 
         collection.ifPresent(c -> {
-            assert c.getSkins() != null;
-            c.getSkins().sort(Comparator.comparingLong(Skin::getId).reversed());
+            assert c.getAgents() != null;
+            c.getAgents().sort(Comparator.comparingLong(Agent::getId));
         });
 
 
@@ -43,7 +49,7 @@ public class CollectionController {
             model.addAttribute("collection", collection);
         }
 
-        return "specificCollectionSkins";
+        return "specificCollectionAgents";
     }
 
 }

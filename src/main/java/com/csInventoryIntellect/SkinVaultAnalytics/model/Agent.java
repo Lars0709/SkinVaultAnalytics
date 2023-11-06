@@ -1,10 +1,7 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.model;
 
 import jakarta.annotation.Nullable;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -30,6 +27,7 @@ public class Agent {
     private String rarity;
     private String type;
     @Nullable
+    @Column(length = 1000)
     private String agentImage;
 
 }

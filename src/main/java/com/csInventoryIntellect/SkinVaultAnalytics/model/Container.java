@@ -12,12 +12,15 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Container {
 
-    public Container(String containerName, boolean obtainableNew, boolean keyNeeded, boolean dropActive, @Nullable Key key) {
+    public Container(String containerType, String containerName, boolean keyNeeded, String containerImage,
+                     String containerDrop, boolean containerSupplyLimited, @Nullable Key key) {
 
+        this.containerType = containerType;
         this.containerName = containerName;
-        this.obtainableNew = obtainableNew;
+        this.containerImage = containerImage;
+        this.containerDrop = containerDrop;
+        this.containerSupplyLimited = containerSupplyLimited;
         this.keyNeeded = keyNeeded;
-        this.dropActive = dropActive;
         this.key = key;
 
     }
@@ -26,14 +29,18 @@ public class Container {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String containerType; // case,sticker,souvenir,pin,patch,graffiti,musickit,special(x-ray/anubis)
     private String containerName;
-    private boolean obtainableNew;
+    private String containerImage;
+    private String containerDrop; // active,rare,none
+    private boolean containerSupplyLimited;
     private boolean keyNeeded;
-    private boolean dropActive;
 
     @Nullable
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "key_id")
     private Key key;
+
+
 
 }

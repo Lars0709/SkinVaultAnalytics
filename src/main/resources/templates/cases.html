@@ -16,26 +16,34 @@
         <div class="card m-2" style="width: 24rem;">
             <div class="card-body">
 
-                <div class="card-title text-center" >
-                    <a th:href="${'http://localhost:8080/case/' + case.id}"></a>
-                    <h5 th:text="${case.collectionName}"></h5>
+                <div class="card-title text-center">
+                    <a th:href="${'http://localhost:8080/case/' + case.id}" class="no-link-style">
+                        <h5 th:text="${case.containers.get(0).containerName}"></h5>
+                    </a>
                 </div>
 
-                <img th:src="${case.collectionImage != null ? case.collectionImage : '/images/akch-stock.png'}"
-                     class="card-img-top cropped-image"
-                     alt="sample picture">
+                <a class="card-img-top" th:href="${'http://localhost:8080/case/' + case.id}">
+                <img class="cropped-image" th:src="${case.containers[0].getContainerImage() != null ? case.containers[0].containerImage : '/images/akch-stock.png'}" >
+                </a>
 
+                <!--
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                -->
 
             </div>
+
             <ul class="list-group list-group-flush">
-
-                <li class="list-group-item text-center" th:text="'Release Year: ' + ${case.releaseYear}"></li>
+                <li class="list-group-item text-center" th:text="'case Preis hier später?'"></li>
             </ul>
-            <div class="card-body text-center">
-                <a th:href="${'http://localhost:8080/case/' + case.id}" class="btn btn-primary mx-2">View Case</a>
-                <a href="/" class="btn btn-primary mx-2">Another link</a>
-            </div>
+
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center" th:text="'Released on ' + ${case.releaseDate}"></li>
+            </ul>
+
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item text-center" th:text="'Drops: ' + ${case.containers[0].containerDrop}"></li>
+            </ul>
+
         </div>
     </div>
 </div>

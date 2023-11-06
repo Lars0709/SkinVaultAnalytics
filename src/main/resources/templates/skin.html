@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title th:text="${collection.get().collectionName}"></title>
+    <title th:text="${skin.get().skinName}"></title>
     <link th:href="@{/css/bootstrap.css}" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/bootstrap.css">
 </head>
@@ -13,28 +13,26 @@
 <body>
 
 <div class="text-center mb-4">
-    <h2 th:text="${collection.get().collectionName}"></h2>
+    <h2 th:text="${skin.get().skinName}"></h2>
 </div>
 
 <div class="card-group justify-content-center">
-    <div th:each="skin : ${collection.get().getSkins()}">
         <div class="card m-2" style="width: 24rem;">
             <div class="card-body">
                 <div class="card-title removeLinkDesign text-center"
-                     th:href="${'http://localhost:8080/skin/' + skin.id}">
-                    <h5 th:text="${skin.gunName} + ' | ' + ${skin.skinName}"></h5>
+                     th:href="${'http://localhost:8080/skin/' + skin.get().id}">
+                    <h5 th:text="${skin.get().gunName} + ' | ' + ${skin.get().skinName}"></h5>
                 </div>
 
                 <a class="card-img-top" th:href="${'http://localhost:8080/skin/' + skin.id}">
-                    <img class="cropped-image"
-                         th:src="${skin.getSkinImage() != null ? skin.skinImage : '/images/akch-stock.png'}">
+                    <img class="cropped-image" th:src="${skin.get().getSkinImage() != null ? skin.get().skinImage : '/images/akch-stock.png'}">
                 </a>
 
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item"><h6 class="card-text" th:text="${skin.rarity}"
+                <li class="list-group-item"><h6 class="card-text" th:text="${skin.get().rarity}"
                                                 th:classappend="${skin.rarity == 'Covert' ? 'text-red' : skin.rarity == 'Classified' ? 'text-pink' : skin.rarity == 'Restricted' ? 'text-purple' : skin.rarity == 'Mil-Spec' ? 'text-blue' : skin.rarity == 'Industrial Grade' ? 'text-lightblue' : skin.rarity == 'Consumer Grade' ? 'text-grey' : ''}"></h6>
                     <p></li>
                 <li class="list-group-item">
@@ -48,7 +46,6 @@
                 <a href="#" class="card-link">Card link</a>
                 <a href="#" class="card-link">Another link</a>
             </div>
-        </div>
     </div>
 </div>
 

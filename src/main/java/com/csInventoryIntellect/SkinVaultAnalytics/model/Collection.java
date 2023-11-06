@@ -16,14 +16,16 @@ import java.util.List;
 public class Collection {
 
 
-    public Collection(String collectionName, int releaseYear, String collectionType, @Nullable String collectionImage,
+    public Collection(String collectionName, String releaseDate, String collectionType, @Nullable String collectionImage,
                       @Nullable List<Skin> skins, @Nullable List<Sticker> stickers, @Nullable List<Graffiti> graffitis,
-                      @Nullable List<Agent> agents, @Nullable List<Patch> patches, @Nullable List<Pin> pins) {
+                      @Nullable List<Agent> agents, @Nullable List<Patch> patches, @Nullable List<Pin> pins,
+                      @Nullable List<Container> containers) {
 
         this.collectionName = collectionName;
-        this.releaseYear = releaseYear;
+        this.releaseDate = releaseDate;
         this.collectionType = collectionType;
         this.collectionImage = collectionImage;
+        this.containers = containers;
         this.skins = skins;
         this.stickers = stickers;
         this.graffitis = graffitis;
@@ -38,9 +40,15 @@ public class Collection {
     private Long id;
 
     private String collectionName;
-    private int releaseYear;
+    private String releaseDate;
     private String collectionType;
+    @Column(length = 1000)
     private String collectionImage;
+
+    @Nullable
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "container_collection_id", nullable = false)
+    private List<Container> containers;
 
     @Nullable
     @OneToMany
@@ -48,7 +56,7 @@ public class Collection {
     private List<Skin> skins;
 
     @Nullable
-    @OneToMany
+    @ManyToMany
     @JoinColumn(name = "sticker_collection_id", nullable = false)
     private List<Sticker> stickers;
 

@@ -16,7 +16,7 @@ public class Skin {
 
     public Skin(String skinName, String rarity, double minWear, double maxWear, String gunType, String gunName,
                 String finishStyle, boolean statTrakPossible, boolean souvenirPossible, boolean additionalStickerPossible,
-                @Nullable String skinImage) {
+                @Nullable String skinImage, double[] skinPrices,@Nullable int skinsMarketVolume) {
 
         this.skinName = skinName;
         this.rarity = rarity; // blue, purple, pink, red, gold, contraband
@@ -29,6 +29,10 @@ public class Skin {
         this.souvenirPossible = souvenirPossible;
         this.additionalStickerPossible = additionalStickerPossible;
         this.skinImage = skinImage;
+        this.skinPrices = skinPrices;
+        this.skinsMarketVolume = skinsMarketVolume;
+
+
 
     }
 
@@ -47,6 +51,9 @@ public class Skin {
     private boolean souvenirPossible;
     private boolean additionalStickerPossible;
     @Nullable
+    @Column(length = 1000)
     private String skinImage;
-
+    private double[] skinPrices = new double[10]; // Creates an array of 10 null Double elements
+    @Nullable
+    private int skinsMarketVolume;
 }

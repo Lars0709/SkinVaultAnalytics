@@ -26,6 +26,7 @@ public class Patch {
     private String patchName;
     private String rarity;
     @Nullable
+    @Column(length = 1000)
     private String patchImage;
 
 }

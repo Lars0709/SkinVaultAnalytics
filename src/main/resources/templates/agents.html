@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skin Collections</title>
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet">
+</head>
+
+<div th:replace="~{fragments/navBar :: navBar}"></div>
+
+<body>
+
+<div class="card-group justify-content-center">
+    <div th:each="agent : ${agents}">
+        <div class="card m-2" style="width: 24rem;">
+            <div class="card-body">
+                <div class="card-title removeLinkDesign text-center"
+                     th:href="${'http://localhost:8080/agent/' + agent.id}">
+                    <h5 th:text="${agent.agentName}"></h5>
+                </div>
+
+                <a class="card-img-top" th:href="${'http://localhost:8080/agent/' + agent.id}">
+                    <img class="cropped-image-agents"
+                         th:src="${agent.getAgentImage() != null ? agent.agentImage : '/images/akch-stock.png'}">
+                </a>
+
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h6 class="card-text" th:text="${agent.rarity}"
+                                                th:classappend="${agent.rarity == 'Master' ? 'text-red' : agent.rarity == 'Superior' ? 'text-pink' : agent.rarity == 'Exceptional' ? 'text-purple' : agent.rarity == 'Distinguished' ? 'text-blue' : ''}"></h6>
+                    <p></li>
+
+                <li class="list-group-item"><h6 class="card-text " th:text="${agent.type}"></h6></li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+</body>
+
+<div th:replace="~{fragments/footer :: footer}"></div>
+
+</html>

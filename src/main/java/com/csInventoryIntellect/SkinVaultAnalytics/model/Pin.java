@@ -25,6 +25,7 @@ public class Pin {
     private String pinName;
     private String rarity;
     @Nullable
+    @Column(length = 1000)
     private String pinImage;
 
 }

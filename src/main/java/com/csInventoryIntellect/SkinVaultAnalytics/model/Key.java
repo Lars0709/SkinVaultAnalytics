@@ -12,10 +12,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Key {
 
-    public Key(String keyName, String keyType) {
+    public Key(String keyName, boolean existingTradableKey, double keyPrice) {
 
         this.keyName = keyName;
-        this.keyType = keyType;
+        this.existingTradableKey = existingTradableKey;
+        this.keyPrice = keyPrice;
 
     }
 
@@ -24,6 +25,7 @@ public class Key {
     private Long id;
 
     private String keyName;
-    private String keyType;
+    private boolean existingTradableKey;
+    private double keyPrice;
 
 }

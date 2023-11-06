@@ -1,10 +1,12 @@
 package com.csInventoryIntellect.SkinVaultAnalytics.service;
 
 import com.csInventoryIntellect.SkinVaultAnalytics.model.Collection;
+import com.csInventoryIntellect.SkinVaultAnalytics.model.*;
 import com.csInventoryIntellect.SkinVaultAnalytics.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
@@ -32,10 +34,10 @@ public class CollectionService {
     @Autowired
     private GraffitiRepository graffitiRepository;
 
-
-    public String createCollection(List<Collection> collections) {
+    public String createCollections(List<Collection> collections) {
 
         collectionRepository.saveAll(collections);
+
 
         for (Collection collection : collections) {
 
@@ -64,20 +66,44 @@ public class CollectionService {
             if (collection.getGraffitis() != null) {
                 graffitiRepository.saveAll(collection.getGraffitis());
             }
-
-            /*
-            if (collection.getMusicKits() != null){
-                musicKitRepository.saveAll(collection.getMusicKits());
-            }
-             */
-
         }
+
+        // remove double/triple keys
+        KeyService keyService = new KeyService();
+        keyService.removeDoubledKeys();
+
 
         return "Added all Collections successfully!";
     }
 
     public List<Collection> getAllCollections() {
-        return collectionRepository.findAll();
+
+        List<Collection> collections = collectionRepository.findAll();
+
+        for (Collection collection : collections) {
+
+            if (collection.getSkins() != null) {
+                collection.getSkins().sort(Comparator.comparingLong(Skin::getId));
+            }
+            if (collection.getAgents() != null) {
+                collection.getAgents().sort(Comparator.comparingLong(Agent::getId));
+            }
+            if (collection.getPatches() != null) {
+                collection.getPatches().sort(Comparator.comparingLong(Patch::getId));
+            }
+            if (collection.getPins() != null) {
+                collection.getPins().sort(Comparator.comparingLong(Pin::getId));
+            }
+            if (collection.getGraffitis() != null) {
+                collection.getGraffitis().sort(Comparator.comparingLong(Graffiti::getId));
+            }
+            if (collection.getStickers() != null) {
+                collection.getStickers().sort(Comparator.comparingLong(Sticker::getId));
+            }
+
+        }
+
+        return collections;
     }
 
     public Optional<Collection> getCollectionById(Long id) {

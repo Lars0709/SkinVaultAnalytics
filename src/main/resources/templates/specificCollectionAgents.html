@@ -17,32 +17,28 @@
 </div>
 
 <div class="card-group justify-content-center">
-    <div th:each="skin : ${collection.get().getSkins()}">
+    <div th:each="agent : ${collection.get().getAgents()}">
         <div class="card m-2" style="width: 24rem;">
             <div class="card-body">
                 <div class="card-title removeLinkDesign text-center"
-                     th:href="${'http://localhost:8080/skin/' + skin.id}">
-                    <h5 th:text="${skin.gunName} + ' | ' + ${skin.skinName}"></h5>
+                     th:href="${'http://localhost:8080/agent/' + agent.id}">
+                    <h5 th:text="${agent.agentName}"></h5>
                 </div>
 
-                <a class="card-img-top" th:href="${'http://localhost:8080/skin/' + skin.id}">
-                    <img class="cropped-image"
-                         th:src="${skin.getSkinImage() != null ? skin.skinImage : '/images/akch-stock.png'}">
+                <a class="card-img-top" th:href="${'http://localhost:8080/agent/' + agent.id}">
+                    <img class="cropped-image-agents"
+                         th:src="${agent.getAgentImage() != null ? agent.agentImage : '/images/akch-stock.png'}">
                 </a>
 
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item"><h6 class="card-text" th:text="${skin.rarity}"
-                                                th:classappend="${skin.rarity == 'Covert' ? 'text-red' : skin.rarity == 'Classified' ? 'text-pink' : skin.rarity == 'Restricted' ? 'text-purple' : skin.rarity == 'Mil-Spec' ? 'text-blue' : skin.rarity == 'Industrial Grade' ? 'text-lightblue' : skin.rarity == 'Consumer Grade' ? 'text-grey' : ''}"></h6>
+                <li class="list-group-item"><h6 class="card-text" th:text="${agent.rarity}"
+                                                th:classappend="${agent.rarity == 'Master' ? 'text-red' : agent.rarity == 'Superior' ? 'text-pink' : agent.rarity == 'Exceptional' ? 'text-purple' : agent.rarity == 'Distinguished' ? 'text-blue' : ''}"></h6>
                     <p></li>
-                <li class="list-group-item">
-                    <h6>
-                        <span th:inline="text">[[${skin.minWear}]] - [[${skin.maxWear}]]</span>
-                    </h6>
-                </li>
-                <li class="list-group-item"><h6 class="card-text " th:text="${skin.gunType}"></h6></li>
+
+                <li class="list-group-item"><h6 class="card-text " th:text="${agent.type}"></h6></li>
             </ul>
             <div class="card-body">
                 <a href="#" class="card-link">Card link</a>

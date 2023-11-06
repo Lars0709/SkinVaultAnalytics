@@ -190,30 +190,6 @@
   }
 }
 
-.text-red {
-  color: red;
-}
-
-.text-pink {
-  color: deeppink;
-}
-
-.text-purple {
-  color: rebeccapurple;
-}
-
-.text-blue {
-  color: blue;
-}
-
-.text-lightblue {
-  color: lightskyblue;
-}
-
-.text-grey {
-  color: grey;
-}
-
 body {
   padding-top: 100px;
   margin: 0;
@@ -12088,6 +12064,44 @@ textarea.form-control-lg {
 .cropped-image {
   margin-top: -50px; /* Adjust the negative margin to crop the desired amount */
   margin-bottom: -50px; /* Adjust the negative margin to crop the desired amount */
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.cropped-image-agents {
+  margin-top: -50px; /* Adjust the negative margin to crop the desired amount */
+  margin-bottom: -30px; /* Adjust the negative margin to crop the desired amount */
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-pink {
+  color: deeppink;
+}
+
+.text-purple {
+  color: rebeccapurple;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-lightblue {
+  color: lightskyblue;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.no-link-style {
+  color: inherit;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */

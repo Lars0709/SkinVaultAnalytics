@@ -17,25 +17,30 @@
             <div class="card-body">
 
                 <div class="card-title text-center" >
-                    <a th:href="${'http://localhost:8080/collection/' + collection.id}"></a>
+                    <a th:href="${'http://localhost:8080/collection/' + collection.id}" class="no-link-style">
                     <h5 th:text="${collection.collectionName}"></h5>
+                    </a>
                 </div>
 
-                <img th:src="${collection.getCollectionImage() != null ? collection.getCollectionImage() : '/images/akch-stock.png'}"
-                     class="card-img-top cropped-image"
-                     alt="sample picture">
+                <a class="card-img-top" th:href="${'http://localhost:8080/collection/' + collection.id}">
+                <img class="cropped-image" th:src="${collection.getCollectionImage() != null ? collection.getCollectionImage() : '/images/akch-stock.png'}">
+                </a>
 
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
             </div>
             <ul class="list-group list-group-flush">
 
-                <li class="list-group-item text-center" th:text="'Release Year: ' + ${collection.releaseYear}"></li>
+                <li class="list-group-item text-center" th:text="'Release: ' + ${collection.releaseDate}"></li>
             </ul>
+
+
             <div class="card-body text-center">
                 <a th:href="${'http://localhost:8080/collection/' + collection.id}" class="btn btn-primary mx-2">View Collection</a>
                 <a href="/" class="btn btn-primary mx-2">Button</a>
             </div>
+
+
         </div>
     </div>
 </div>
